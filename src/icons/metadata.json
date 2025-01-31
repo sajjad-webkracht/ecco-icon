@@ -1,0 +1,953 @@
+[
+    {
+      "id": "icon1",
+      "name": "Home",
+      "keywords": ["home", "house", "residence", "building", "shelter", "accommodation", "habitat", "dwelling", "abode", "real estate", "living space", "property", "housing", "roof", "place", "household"],
+      "svg": "/icons/home.svg",
+      "lottie": "/icons/home.json",
+      "png": "/icons/home.png",
+      "dotlottie": "/icons/home.lottie",
+      "aep": "/icons/home.aep"
+    },
+    {
+      "id": "icon2",
+      "name": "Playlist",
+      "keywords": ["playlist", "music", "songs", "tracks", "audio", "collection", "queue", "list", "media", "library", "album", "favorites", "mix", "sound", "play", "streaming"],
+      "svg": "/icons/playlist.svg",
+      "lottie": "/icons/playlist.json",
+      "png": "/icons/playlist.png",
+      "dotlottie": "/icons/playlist.lottie",
+      "aep": "/icons/playlist.aep"
+    },
+    {
+      "id": "icon3",
+      "name": "Star",
+      "keywords": ["star", "favorite", "rating", "highlight", "bookmark", "shine", "award", "rank", "symbol", "success", "achievement", "stellar", "important", "feature", "best", "review"],
+      "svg": "/icons/star.svg",
+      "lottie": "/icons/star.json",
+      "png": "/icons/star.png",
+      "dotlottie": "/icons/star.lottie",
+      "aep": "/icons/star.aep"
+    },
+    {
+      "id": "icon4",
+      "name": "Upload",
+      "keywords": ["upload", "send", "share", "transfer", "cloud", "data", "arrow", "up", "export", "file", "submit", "save", "online", "digital", "document", "transfer file"],
+      "svg": "/icons/upload.svg",
+      "lottie": "/icons/upload.json",
+      "png": "/icons/upload.png",
+      "dotlottie": "/icons/upload.lottie",
+      "aep": "/icons/upload.aep"
+    },
+    {
+      "id": "icon5",
+      "name": "Download",
+      "keywords": ["download", "save", "receive", "transfer", "cloud", "data", "arrow", "down", "import", "file", "offline", "document", "retrieve", "get file", "storage"],
+      "svg": "/icons/download.svg",
+      "lottie": "/icons/download.json",
+      "png": "/icons/download.png",
+      "dotlottie": "/icons/download.lottie",
+      "aep": "/icons/download.aep"
+    },
+    {
+      "id": "icon6",
+      "name": "Share",
+      "keywords": ["share", "send", "social", "network", "distribute", "connection", "link", "forward", "spread", "communication", "upload", "transfer", "broadcast", "media", "post", "message"],
+      "svg": "/icons/share.svg",
+      "lottie": "/icons/share.json",
+      "png": "/icons/share.png",
+      "dotlottie": "/icons/share.lottie",
+      "aep": "/icons/share.aep"
+    },
+    {
+      "id": "icon7",
+      "name": "Arrow Down",
+      "keywords": ["arrow down", "downward", "download", "direction", "navigation", "pointing down", "move down", "scroll", "decline", "drop", "bottom", "decrease", "lower", "descend", "down"],
+      "svg": "/icons/arrow-down.svg",
+      "lottie": "/icons/arrow-down.json",
+      "png": "/icons/arrow-down.png",
+      "dotlottie": "/icons/arrow-down.lottie",
+      "aep": "/icons/arrow-down.aep"
+    },
+    {
+      "id": "icon8",
+      "name": "Arrow Up",
+      "keywords": ["arrow up", "upward", "upload", "direction", "navigation", "pointing up", "move up", "rise", "increase", "ascend", "top", "elevate", "scroll up", "climb", "up"],
+      "svg": "/icons/arrow-up.svg",
+      "lottie": "/icons/arrow-up.json",
+      "png": "/icons/arrow-up.png",
+      "dotlottie": "/icons/arrow-up.lottie",
+      "aep": "/icons/arrow-up.aep"
+    },
+    {
+      "id": "icon9",
+      "name": "Arrow Right",
+      "keywords": ["arrow right", "rightward", "direction", "navigation", "pointing right", "move right", "next", "forward", "proceed", "advance", "scroll right", "east", "go right", "continue", "right"],
+      "svg": "/icons/arrow-right.svg",
+      "lottie": "/icons/arrow-right.json",
+      "png": "/icons/arrow-right.png",
+      "dotlottie": "/icons/arrow-right.lottie",
+      "aep": "/icons/arrow-right.aep"
+    },
+    {
+      "id": "icon10",
+      "name": "Arrow Left",
+      "keywords": ["arrow left", "leftward", "direction", "navigation", "pointing left", "move left", "back", "previous", "rewind", "reverse", "scroll left", "west", "go left", "return", "left"],
+      "svg": "/icons/arrow-left.svg",
+      "lottie": "/icons/arrow-left.json",
+      "png": "/icons/arrow-left.png",
+      "dotlottie": "/icons/arrow-left.lottie",
+      "aep": "/icons/arrow-left.aep"
+    },
+    {
+      "id": "icon11",
+      "name": "Edit",
+      "keywords": ["edit", "modify", "pencil", "write", "update", "change", "adjust", "revise", "compose", "draft", "customize", "create", "correct", "annotation", "design", "tool"],
+      "svg": "/icons/edit.svg",
+      "lottie": "/icons/edit.json",
+      "png": "/icons/edit.png",
+      "dotlottie": "/icons/edit.lottie",
+      "aep": "/icons/edit.aep"
+    },
+    {
+      "id": "icon12",
+      "name": "Delete",
+      "keywords": ["delete", "remove", "trash", "bin", "discard", "erase", "clear", "cancel", "dispose", "eliminate", "destroy", "uninstall", "trash can", "wipe", "terminate", "clean up"],
+      "svg": "/icons/delete.svg",
+      "lottie": "/icons/delete.json",
+      "png": "/icons/delete.png",
+      "dotlottie": "/icons/delete.lottie",
+      "aep": "/icons/delete.aep"
+    },
+    {
+      "id": "icon13",
+      "name": "Close",
+      "keywords": ["close", "cancel", "exit", "x", "dismiss", "remove", "clear", "stop", "end", "quit", "shut", "close window", "close tab", "terminate", "close button", "cross"],
+      "svg": "/icons/close.svg",
+      "lottie": "/icons/close.json",
+      "png": "/icons/close.png",
+      "dotlottie": "/icons/close.lottie",
+      "aep": "/icons/close.aep"
+    },
+    {
+      "id": "icon14",
+      "name": "Plus",
+      "keywords": ["plus", "add", "create", "new", "increase", "expand", "more", "addition", "positive", "combine", "insert", "extra", "include", "augment", "sum", "plus sign"],
+      "svg": "/icons/plus.svg",
+      "lottie": "/icons/plus.json",
+      "png": "/icons/plus.png",
+      "dotlottie": "/icons/plus.lottie",
+      "aep": "/icons/plus.aep"
+    },
+    {
+      "id": "icon15",
+      "name": "Close Circle",
+      "keywords": ["close", "cancel", "exit", "dismiss", "remove", "clear", "stop", "end", "quit", "shut", "close button", "circle", "cross", "terminate", "close in circle", "x in circle"],
+      "svg": "/icons/close-circle.svg",
+      "lottie": "/icons/close-circle.json",
+      "png": "/icons/close-circle.png",
+      "dotlottie": "/icons/close-circle.lottie",
+      "aep": "/icons/close-circle.aep"
+    },
+    {
+      "id": "icon16",
+      "name": "Plus Circle",
+      "keywords": ["plus", "add", "create", "new", "increase", "expand", "more", "addition", "positive", "combine", "insert", "extra", "include", "augment", "circle", "plus in circle"],
+      "svg": "/icons/plus-circle.svg",
+      "lottie": "/icons/plus-circle.json",
+      "png": "/icons/plus-circle.png",
+      "dotlottie": "/icons/plus-circle.lottie",
+      "aep": "/icons/plus-circle.aep"
+    },
+    {
+      "id": "icon17",
+      "name": "Play",
+      "keywords": ["play", "start", "media", "video", "audio", "begin", "start button", "action", "music", "movie", "video player", "launch", "activate", "start playing", "motion"],
+      "svg": "/icons/play.svg",
+      "lottie": "/icons/play.json",
+      "png": "/icons/play.png",
+      "dotlottie": "/icons/play.lottie",
+      "aep": "/icons/play.aep"
+    },
+    {
+      "id": "icon18",
+      "name": "Pause",
+      "keywords": ["pause", "stop", "media", "video", "audio", "halt", "break", "interruption", "hold", "suspend", "temporary stop", "media control", "video player", "playback", "delay"],
+      "svg": "/icons/pause.svg",
+      "lottie": "/icons/pause.json",
+      "png": "/icons/pause.png",
+      "dotlottie": "/icons/pause.lottie",
+      "aep": "/icons/pause.aep"
+    },
+    {
+      "id": "icon19",
+      "name": "Stop",
+      "keywords": ["stop", "halt", "pause", "media", "end", "terminate", "finish", "block", "close", "cancel", "suspend", "video", "audio", "stop button", "cut", "cease"],
+      "svg": "/icons/stop.svg",
+      "lottie": "/icons/stop.json",
+      "png": "/icons/stop.png",
+      "dotlottie": "/icons/stop.lottie",
+      "aep": "/icons/stop.aep"
+    },
+    {
+      "id": "icon20",
+      "name": "Repeat",
+      "keywords": ["repeat", "loop", "cycle", "redo", "replay", "again", "recurrent", "rotation", "renew", "repetition", "turn", "restart", "refresh", "back", "repetition arrow"],
+      "svg": "/icons/repeat.svg",
+      "lottie": "/icons/repeat.json",
+      "png": "/icons/repeat.png",
+      "dotlottie": "/icons/repeat.lottie",
+      "aep": "/icons/repeat.aep"
+    },
+    {
+      "id": "icon21",
+      "name": "Photo",
+      "keywords": ["photo", "image", "picture", "camera", "photograph", "snapshot", "media", "gallery", "photography", "picture frame", "capture", "visual", "portrait", "photo album", "pic"],
+      "svg": "/icons/photo.svg",
+      "lottie": "/icons/photo.json",
+      "png": "/icons/photo.png",
+      "dotlottie": "/icons/photo.lottie",
+      "aep": "/icons/photo.aep"
+    },
+    {
+      "id": "icon22",
+      "name": "Heart",
+      "keywords": ["heart", "love", "affection", "like", "favorite", "care", "emotion", "romance", "passion", "love symbol", "warmth", "heart symbol", "adore", "kindness", "romantic"],
+      "svg": "/icons/heart.svg",
+      "lottie": "/icons/heart.json",
+      "png": "/icons/heart.png",
+      "dotlottie": "/icons/heart.lottie",
+      "aep": "/icons/heart.aep"
+    },
+    {
+      "id": "icon23",
+      "name": "Next Track",
+      "keywords": ["next track", "next", "forward", "skip", "music", "audio", "song", "track", "play", "media", "music player", "advance", "progress", "forward arrow", "playlist"],
+      "svg": "/icons/next-track.svg",
+      "lottie": "/icons/next-track.json",
+      "png": "/icons/next-track.png",
+      "dotlottie": "/icons/next-track.lottie",
+      "aep": "/icons/next-track.aep"
+    },
+    {
+      "id": "icon24",
+      "name": "Previous Track",
+      "keywords": ["previous track", "previous", "back", "rewind", "music", "audio", "song", "track", "play", "media", "music player", "reverse", "backward", "back arrow", "playlist"],
+      "svg": "/icons/previous-track.svg",
+      "lottie": "/icons/previous-track.json",
+      "png": "/icons/previous-track.png",
+      "dotlottie": "/icons/previous-track.lottie",
+      "aep": "/icons/previous-track.aep"
+    },
+    {
+      "id": "icon25",
+      "name": "Clock",
+      "keywords": ["clock", "time", "watch", "hour", "minute", "schedule", "alarm", "clock face", "timer", "timepiece", "clock symbol", "second", "reminder", "chronometer", "clock icon"],
+      "svg": "/icons/clock.svg",
+      "lottie": "/icons/clock.json",
+      "png": "/icons/clock.png",
+      "dotlottie": "/icons/clock.lottie",
+      "aep": "/icons/clock.aep"
+    },
+    {
+      "id": "icon26",
+      "name": "Timer",
+      "keywords": ["timer", "clock", "time", "countdown", "stopwatch", "alarm", "duration", "reminder", "timer icon", "time limit", "measurement", "clock symbol", "interval", "set time", "timing"],
+      "svg": "/icons/timer.svg",
+      "lottie": "/icons/timer.json",
+      "png": "/icons/timer.png",
+      "dotlottie": "/icons/timer.lottie",
+      "aep": "/icons/timer.aep"
+    },
+    {
+      "id": "icon27",
+      "name": "Zoom",
+      "keywords": ["zoom", "magnify", "in", "out", "search", "enlarge", "focus", "lens", "view", "increase", "expand", "details", "magnifier", "scale", "look"],
+      "svg": "/icons/zoom.svg",
+      "lottie": "/icons/zoom.json",
+      "png": "/icons/zoom.png",
+      "dotlottie": "/icons/zoom.lottie",
+      "aep": "/icons/zoom.aep"
+    },
+    {
+      "id": "icon28",
+      "name": "Eye",
+      "keywords": ["eye", "vision", "see", "look", "view", "watch", "observe", "sight", "focus", "gaze", "eye symbol", "perceive", "visual", "lookout", "stare"],
+      "svg": "/icons/eye.svg",
+      "lottie": "/icons/eye.json",
+      "png": "/icons/eye.png",
+      "dotlottie": "/icons/eye.lottie",
+      "aep": "/icons/eye.aep"
+    },
+    {
+      "id": "icon29",
+      "name": "Bulb",
+      "keywords": ["bulb", "light", "idea", "lamp", "energy", "electric", "brightness", "innovation", "illumination", "concept", "creative", "thinking", "bright", "solution", "inspiration"],
+      "svg": "/icons/bulb.svg",
+      "lottie": "/icons/bulb.json",
+      "png": "/icons/bulb.png",
+      "dotlottie": "/icons/bulb.lottie",
+      "aep": "/icons/bulb.aep"
+    },
+    {
+      "id": "icon30",
+      "name": "Location",
+      "keywords": ["location", "map", "pin", "place", "position", "destination", "address", "geolocation", "coordinates", "navigation", "spot", "landmark", "gps", "area", "site"],
+      "svg": "/icons/location.svg",
+      "lottie": "/icons/location.json",
+      "png": "/icons/location.png",
+      "dotlottie": "/icons/location.lottie",
+      "aep": "/icons/location.aep"
+    },
+    {
+      "id": "icon31",
+      "name": "Lock",
+      "keywords": ["lock", "security", "key", "password", "protect", "privacy", "safe", "unlock", "restricted", "secure", "protection", "safety", "confidential", "access", "locked"],
+      "svg": "/icons/lock.svg",
+      "lottie": "/icons/lock.json",
+      "png": "/icons/lock.png",
+      "dotlottie": "/icons/lock.lottie",
+      "aep": "/icons/lock.aep"
+    },
+    {
+      "id": "icon32",
+      "name": "Document",
+      "keywords": ["document", "file", "paper", "text", "sheet", "paperwork", "report", "pdf", "write", "note", "form", "document icon", "record", "content", "manual"],
+      "svg": "/icons/document.svg",
+      "lottie": "/icons/document.json",
+      "png": "/icons/document.png",
+      "dotlottie": "/icons/document.lottie",
+      "aep": "/icons/document.aep"
+    },
+    {
+      "id": "icon33",
+      "name": "Gift",
+      "keywords": ["gift", "present", "celebration", "box", "surprise", "wrap", "give", "occasion", "birthday", "holiday", "reward", "wrapped", "generosity", "donation", "festivity"],
+      "svg": "/icons/gift.svg",
+      "lottie": "/icons/gift.json",
+      "png": "/icons/gift.png",
+      "dotlottie": "/icons/gift.lottie",
+      "aep": "/icons/gift.aep"
+    },
+    {
+      "id": "icon34",
+      "name": "Rocket",
+      "keywords": ["rocket", "launch", "space", "flight", "exploration", "science", "mission", "boost", "speed", "travel", "adventure", "innovation", "takeoff", "blastoff", "astronaut"],
+      "svg": "/icons/rocket.svg",
+      "lottie": "/icons/rocket.json",
+      "png": "/icons/rocket.png",
+      "dotlottie": "/icons/rocket.lottie",
+      "aep": "/icons/rocket.aep"
+    },
+    {
+      "id": "icon35",
+      "name": "Camera",
+      "keywords": ["camera", "photography", "photo", "picture", "lens", "snapshot", "capture", "image", "video", "shoot", "record", "film", "photo camera", "device", "portrait"],
+      "svg": "/icons/camera.svg",
+      "lottie": "/icons/camera.json",
+      "png": "/icons/camera.png",
+      "dotlottie": "/icons/camera.lottie",
+      "aep": "/icons/camera.aep"
+    },
+    {
+      "id": "icon36",
+      "name": "Crown",
+      "keywords": ["crown", "royalty", "king", "queen", "regal", "monarchy", "authority", "symbol", "victory", "honor", "pride", "ruler", "achievement", "prestige", "power"],
+      "svg": "/icons/crown.svg",
+      "lottie": "/icons/crown.json",
+      "png": "/icons/crown.png",
+      "dotlottie": "/icons/crown.lottie",
+      "aep": "/icons/crown.aep"
+    },
+    {
+      "id": "icon37",
+      "name": "Calendar",
+      "keywords": ["calendar", "date", "schedule", "time", "month", "day", "planner", "agenda", "event", "reminder", "appointment", "timeline", "year", "organization", "schedule icon"],
+      "svg": "/icons/calendar.svg",
+      "lottie": "/icons/calendar.json",
+      "png": "/icons/calendar.png",
+      "dotlottie": "/icons/calendar.lottie",
+      "aep": "/icons/calendar.aep"
+    },
+    {
+      "id": "icon38",
+      "name": "Growth",
+      "keywords": ["growth", "increase", "expand", "progress", "development", "boost", "improvement", "rise", "evolution", "upward", "advance", "flourish", "build", "success", "growth chart"],
+      "svg": "/icons/growth.svg",
+      "lottie": "/icons/growth.json",
+      "png": "/icons/growth.png",
+      "dotlottie": "/icons/growth.lottie",
+      "aep": "/icons/growth.aep"
+    },
+    {
+      "id": "icon39",
+      "name": "Map",
+      "keywords": ["map", "location", "navigation", "directions", "route", "gps", "guide", "coordinates", "journey", "territory", "area", "place", "travel", "exploration", "path"],
+      "svg": "/icons/map.svg",
+      "lottie": "/icons/map.json",
+      "png": "/icons/map.png",
+      "dotlottie": "/icons/map.lottie",
+      "aep": "/icons/map.aep"
+    },
+    {
+      "id": "icon40",
+      "name": "Chat",
+      "keywords": ["chat", "message", "conversation", "talk", "communication", "dialogue", "discussion", "text", "speech", "speech bubble", "contact", "connect", "reply", "social", "exchange"],
+      "svg": "/icons/chat.svg",
+      "lottie": "/icons/chat.json",
+      "png": "/icons/chat.png",
+      "dotlottie": "/icons/chat.lottie",
+      "aep": "/icons/chat.aep"
+    },
+    {
+      "id": "icon41",
+      "name": "Marketing",
+      "keywords": ["marketing", "advertising", "promotion", "campaign", "strategy", "business", "sales", "growth", "brand", "target", "digital", "social media", "outreach", "publicity", "market", "megaphone"],
+      "svg": "/icons/marketing.svg",
+      "lottie": "/icons/marketing.json",
+      "png": "/icons/marketing.png",
+      "dotlottie": "/icons/marketing.lottie",
+      "aep": "/icons/marketing.aep"
+    },
+    {
+      "id": "icon42",
+      "name": "Phone",
+      "keywords": ["phone", "mobile", "call", "contact", "communication", "telephone", "cell", "device", "talk", "smartphone", "conversation", "dial", "communication device", "receiver", "number"],
+      "svg": "/icons/phone.svg",
+      "lottie": "/icons/phone.json",
+      "png": "/icons/phone.png",
+      "dotlottie": "/icons/phone.lottie",
+      "aep": "/icons/phone.aep"
+    },
+    {
+      "id": "icon43",
+      "name": "Paper Plane",
+      "keywords": ["paper plane", "airplane", "fly", "send", "message", "email", "communication", "transport", "mail", "delivery", "flight", "movement", "dispatch", "quick", "speed"],
+      "svg": "/icons/paper-plane.svg",
+      "lottie": "/icons/paper-plane.json",
+      "png": "/icons/paper-plane.png",
+      "dotlottie": "/icons/paper-plane.lottie",
+      "aep": "/icons/paper-plane.aep"
+    },
+    {
+      "id": "icon44",
+      "name": "Like",
+      "keywords": ["like", "thumb up", "approve", "favor", "good", "positive", "agree", "support", "appreciate", "recommend", "thumbs up", "praise", "acknowledge", "best", "cool"],
+      "svg": "/icons/like.svg",
+      "lottie": "/icons/like.json",
+      "png": "/icons/like.png",
+      "dotlottie": "/icons/like.lottie",
+      "aep": "/icons/like.aep"
+    },
+    {
+      "id": "icon45",
+      "name": "Graduation",
+      "keywords": ["graduation", "cap", "diploma", "degree", "education", "academic", "school", "student", "success", "achievement", "learn", "study", "graduate", "certificate", "celebration"],
+      "svg": "/icons/graduation.svg",
+      "lottie": "/icons/graduation.json",
+      "png": "/icons/graduation.png",
+      "dotlottie": "/icons/graduation.lottie",
+      "aep": "/icons/graduation.aep"
+    },
+    {
+      "id": "icon46",
+      "name": "Question",
+      "keywords": ["question", "inquiry", "help", "support", "ask", "uncertainty", "query", "doubt", "answer", "information", "curiosity", "problem", "confusion", "faq", "knowledge"],
+      "svg": "/icons/question.svg",
+      "lottie": "/icons/question.json",
+      "png": "/icons/question.png",
+      "dotlottie": "/icons/question.lottie",
+      "aep": "/icons/question.aep"
+    },
+    {
+      "id": "icon47",
+      "name": "Security",
+      "keywords": ["security", "protect", "safe", "privacy", "shield", "protection", "safety", "password", "secure", "guard", "cybersecurity", "firewall", "encryption", "access"],
+      "svg": "/icons/security.svg",
+      "lottie": "/icons/security.json",
+      "png": "/icons/security.png",
+      "dotlottie": "/icons/security.lottie",
+      "aep": "/icons/security.aep"
+    },
+    {
+      "id": "icon48",
+      "name": "Laptop",
+      "keywords": ["laptop", "computer", "device", "technology", "mobile", "notebook", "portable", "work", "office", "digital", "electronics", "screen", "programming", "workstation", "tech"],
+      "svg": "/icons/laptop.svg",
+      "lottie": "/icons/laptop.json",
+      "png": "/icons/laptop.png",
+      "dotlottie": "/icons/laptop.lottie",
+      "aep": "/icons/laptop.aep"
+    },
+    {
+      "id": "icon49",
+      "name": "Computer",
+      "keywords": ["computer", "desktop", "technology", "pc", "device", "electronics", "screen", "digital", "laptop", "monitor", "workstation", "programming", "tech", "software", "hardware"],
+      "svg": "/icons/computer.svg",
+      "lottie": "/icons/computer.json",
+      "png": "/icons/computer.png",
+      "dotlottie": "/icons/computer.lottie",
+      "aep": "/icons/computer.aep"
+    },
+    {
+      "id": "icon50",
+      "name": "Web Design",
+      "keywords": ["web design", "design", "website", "UI", "UX", "interface", "user experience", "web development", "layout", "responsive", "HTML", "CSS", "creative", "digital design", "front-end"],
+      "svg": "/icons/web-design.svg",
+      "lottie": "/icons/web-design.json",
+      "png": "/icons/web-design.png",
+      "dotlottie": "/icons/web-design.lottie",
+      "aep": "/icons/web-design.aep"
+    },
+    {
+      "id": "icon51",
+      "name": "Building",
+      "keywords": ["building", "architecture", "structure", "construction", "skyscraper", "house", "office", "facility", "tower", "real estate", "city", "urban", "property", "home", "industry"],
+      "svg": "/icons/building.svg",
+      "lottie": "/icons/building.json",
+      "png": "/icons/building.png",
+      "dotlottie": "/icons/building.lottie",
+      "aep": "/icons/building.aep"
+    },
+    {
+      "id": "icon52",
+      "name": "Tree",
+      "keywords": ["tree", "nature", "plant", "green", "leaf", "forest", "wood", "grow", "environment", "outdoors", "ecology", "bush", "shade", "landscape", "vegetation"],
+      "svg": "/icons/tree.svg",
+      "lottie": "/icons/tree.json",
+      "png": "/icons/tree.png",
+      "dotlottie": "/icons/tree.lottie",
+      "aep": "/icons/tree.aep"
+    },
+    {
+      "id": "icon53",
+      "name": "Shop",
+      "keywords": ["shop", "store", "retail", "shopping", "market", "business", "purchase", "commerce", "sale", "buy", "mall", "goods", "boutique", "storefront", "products"],
+      "svg": "/icons/shop.svg",
+      "lottie": "/icons/shop.json",
+      "png": "/icons/shop.png",
+      "dotlottie": "/icons/shop.lottie",
+      "aep": "/icons/shop.aep"
+    },
+    {
+      "id": "icon54",
+      "name": "Trolley",
+      "keywords": ["trolley", "cart", "shopping", "store", "carry", "transport", "goods", "shopping cart", "transportation", "move", "deliver", "purchase", "storage", "load", "delivery"],
+      "svg": "/icons/trolley.svg",
+      "lottie": "/icons/trolley.json",
+      "png": "/icons/trolley.png",
+      "dotlottie": "/icons/trolley.lottie",
+      "aep": "/icons/trolley.aep"
+    },
+    {
+      "id": "icon55",
+      "name": "Avatar",
+      "keywords": ["avatar", "user", "profile", "person", "account", "identity", "member", "figure", "character", "image", "portrait", "individual", "social", "account icon", "representation"],
+      "svg": "/icons/avatar.svg",
+      "lottie": "/icons/avatar.json",
+      "png": "/icons/avatar.png",
+      "dotlottie": "/icons/avatar.lottie",
+      "aep": "/icons/avatar.aep"
+    },
+    {
+      "id": "icon56",
+      "name": "Globe",
+      "keywords": ["globe", "world", "earth", "global", "international", "map", "planet", "universe", "geography", "location", "country", "continent", "exploration", "travel", "environment"],
+      "svg": "/icons/globe.svg",
+      "lottie": "/icons/globe.json",
+      "png": "/icons/globe.png",
+      "dotlottie": "/icons/globe.lottie",
+      "aep": "/icons/globe.aep"
+    },
+    {
+      "id": "icon57",
+      "name": "Check",
+      "keywords": ["check", "tick", "done", "complete", "approval", "confirm", "verified", "correct", "validation", "mark", "success", "accept", "right", "agree", "completion"],
+      "svg": "/icons/check.svg",
+      "lottie": "/icons/check.json",
+      "png": "/icons/check.png",
+      "dotlottie": "/icons/check.lottie",
+      "aep": "/icons/check.aep"
+    },
+    {
+      "id": "icon58",
+      "name": "Cog",
+      "keywords": ["cog", "gear", "settings", "mechanism", "tool", "adjust", "control", "configuration", "engineering", "system", "automation", "machine", "work", "options", "customize"],
+      "svg": "/icons/cog.svg",
+      "lottie": "/icons/cog.json",
+      "png": "/icons/cog.png",
+      "dotlottie": "/icons/cog.lottie",
+      "aep": "/icons/cog.aep"
+    },
+    {
+      "id": "icon59",
+      "name": "Layers",
+      "keywords": ["layers", "stack", "levels", "hierarchy", "organization", "structure", "arrange", "multi-layer", "design", "components", "separate", "group", "layering", "overlap", "build"],
+      "svg": "/icons/layers.svg",
+      "lottie": "/icons/layers.json",
+      "png": "/icons/layers.png",
+      "dotlottie": "/icons/layers.lottie",
+      "aep": "/icons/layers.aep"
+    },
+    {
+      "id": "icon60",
+      "name": "Cup",
+      "keywords": ["cup", "trophy", "award", "victory", "champion", "success", "prize", "competition", "achievement", "medal", "first place", "recognition", "honor", "winner", "celebration"],
+      "svg": "/icons/cup.svg",
+      "lottie": "/icons/cup.json",
+      "png": "/icons/cup.png",
+      "dotlottie": "/icons/cup.lottie",
+      "aep": "/icons/cup.aep"
+    },
+    {
+      "id": "icon61",
+      "name": "Video",
+      "keywords": ["video", "film", "movie", "clip", "media", "motion", "footage", "video player", "stream", "record", "play", "screen", "visual", "entertainment", "broadcast"],
+      "svg": "/icons/video.svg",
+      "lottie": "/icons/video.json",
+      "png": "/icons/video.png",
+      "dotlottie": "/icons/video.lottie",
+      "aep": "/icons/video.aep"
+    },
+    {
+      "id": "icon62",
+      "name": "Airplane",
+      "keywords": ["airplane", "plane", "flight", "aviation", "aircraft", "travel", "airport", "sky", "jet", "flight path", "takeoff", "flying", "transport", "traveling", "passenger"],
+      "svg": "/icons/airplane.svg",
+      "lottie": "/icons/airplane.json",
+      "png": "/icons/airplane.png",
+      "dotlottie": "/icons/airplane.lottie",
+      "aep": "/icons/airplane.aep"
+    },
+    {
+      "id": "icon63",
+      "name": "Coffee Cup",
+      "keywords": ["coffee cup", "mug", "coffee", "beverage", "drink", "tea", "hot drink", "coffee mug", "morning", "caffeine", "warm", "sip", "ceramic", "brew", "refreshment"],
+      "svg": "/icons/coffee-cup.svg",
+      "lottie": "/icons/coffee-cup.json",
+      "png": "/icons/coffee-cup.png",
+      "dotlottie": "/icons/coffee-cup.lottie",
+      "aep": "/icons/coffee-cup.aep"
+    },
+    {
+      "id": "icon64",
+      "name": "Hourglass",
+      "keywords": ["hourglass", "time", "sand", "clock", "timer", "waiting", "measure", "duration", "past", "future", "countdown", "time management", "timing", "hours", "minutes"],
+      "svg": "/icons/hour-glass.svg",
+      "lottie": "/icons/hour-glass.json",
+      "png": "/icons/hour-glass.png",
+      "dotlottie": "/icons/hour-glass.lottie",
+      "aep": "/icons/hour-glass.aep"
+    },
+    {
+      "id": "icon65",
+      "name": "Danger",
+      "keywords": ["danger", "warning", "alert", "hazard", "risk", "caution", "unsafe", "emergency", "protection", "safety", "exclamation", "threat", "precaution", "risk icon", "security"],
+      "svg": "/icons/danger.svg",
+      "lottie": "/icons/danger.json",
+      "png": "/icons/danger.png",
+      "dotlottie": "/icons/danger.lottie",
+      "aep": "/icons/danger.aep"
+    },
+    {
+      "id": "icon66",
+      "name": "Sun",
+      "keywords": ["sun", "shine", "day", "light", "summer", "warmth", "sunlight", "bright", "morning", "sunrise", "star", "energy", "outdoors", "sky", "solar"],
+      "svg": "/icons/sun.svg",
+      "lottie": "/icons/sun.json",
+      "png": "/icons/sun.png",
+      "dotlottie": "/icons/sun.lottie",
+      "aep": "/icons/sun.aep"
+    },
+    {
+      "id": "icon67",
+      "name": "Bookmark",
+      "keywords": ["bookmark", "save", "favorite", "highlight", "mark", "reading", "link", "reference", "position", "note", "keep", "reminder", "page", "organize", "search"],
+      "svg": "/icons/bookmark.svg",
+      "lottie": "/icons/bookmark.json",
+      "png": "/icons/bookmark.png",
+      "dotlottie": "/icons/bookmark.lottie",
+      "aep": "/icons/bookmark.aep"
+    },
+    {
+      "id": "icon68",
+      "name": "Shuffle",
+      "keywords": ["shuffle", "random", "mix", "order", "playlist", "music", "play", "change", "arrange", "select", "variation", "jumbled", "sequence", "rearrange", "track"],
+      "svg": "/icons/shuffle.svg",
+      "lottie": "/icons/shuffle.json",
+      "png": "/icons/shuffle.png",
+      "dotlottie": "/icons/shuffle.lottie",
+      "aep": "/icons/shuffle.aep"
+    },
+    {
+      "id": "icon69",
+      "name": "Repeat One",
+      "keywords": ["repeat", "loop", "track", "music", "play", "replay", "single", "song", "endless", "continuous", "repeat one", "song loop", "track loop", "audio", "play again"],
+      "svg": "/icons/repeat-one.svg",
+      "lottie": "/icons/repeat-one.json",
+      "png": "/icons/repeat-one.png",
+      "dotlottie": "/icons/repeat-one.lottie",
+      "aep": "/icons/repeat-one.aep"
+    },
+    {
+      "id": "icon70",
+      "name": "Menu",
+      "keywords": ["menu", "navigation", "options", "list", "settings", "items", "select", "controls", "open", "toolbar", "interface", "dropdown", "sidebar"],
+      "svg": "/icons/menu.svg",
+      "lottie": "/icons/menu.json",
+      "png": "/icons/menu.png",
+      "dotlottie": "/icons/menu.lottie",
+      "aep": "/icons/menu.aep"
+    },
+    {
+      "id": "icon71",
+      "name": "Video Camera",
+      "keywords": ["video camera", "record", "film", "video", "camera", "shoot", "capture", "movie", "movie camera", "filming", "camera icon", "motion", "videography", "media", "capture video"],
+      "svg": "/icons/video-camera.svg",
+      "lottie": "/icons/video-camera.json",
+      "png": "/icons/video-camera.png",
+      "dotlottie": "/icons/video-camera.lottie",
+      "aep": "/icons/video-camera.aep"
+    },
+    {
+      "id": "icon72",
+      "name": "Goal",
+      "keywords": ["goal", "flag", "mountain", "achievement", "success", "victory", "target", "win", "summit", "accomplishment", "milestone", "objective", "finish line", "climb", "reward"],
+      "svg": "/icons/goal.svg",
+      "lottie": "/icons/goal.json",
+      "png": "/icons/goal.png",
+      "dotlottie": "/icons/goal.lottie",
+      "aep": "/icons/goal.aep"
+    },
+    {
+      "id": "icon73",
+      "name": "Sound On",
+      "keywords": ["sound on", "volume", "audio", "unmute", "sound", "music", "play", "speaker", "loud", "audio on", "sound icon", "increase volume", "playback", "noise", "hear"],
+      "svg": "/icons/sound-on.svg",
+      "lottie": "/icons/sound-on.json",
+      "png": "/icons/sound-on.png",
+      "dotlottie": "/icons/sound-on.lottie",
+      "aep": "/icons/sound-on.aep"
+    },
+    {
+      "id": "icon74",
+      "name": "Password",
+      "keywords": ["password", "lock", "security", "login", "authentication", "key", "access", "protect", "credentials", "privacy", "secure", "safety", "login icon", "encrypted", "account"],
+      "svg": "/icons/password.svg",
+      "lottie": "/icons/password.json",
+      "png": "/icons/password.png",
+      "dotlottie": "/icons/password.lottie",
+      "aep": "/icons/password.aep"
+    },
+    {
+      "id": "icon75",
+      "name": "HTML",
+      "keywords": ["HTML", "code", "web", "markup", "language", "development", "website", "programming", "web design", "front-end", "HTML5", "tags", "structure", "content", "web development"],
+      "svg": "/icons/html.svg",
+      "lottie": "/icons/html.json",
+      "png": "/icons/html.png",
+      "dotlottie": "/icons/html.lottie",
+      "aep": "/icons/html.aep"
+    },
+    {
+      "id": "icon76",
+      "name": "Folder",
+      "keywords": ["folder", "directory", "files", "organize", "storage", "documents", "file system", "archive", "data", "folder icon", "organization", "file management", "system", "storage container"],
+      "svg": "/icons/folder.svg",
+      "lottie": "/icons/folder.json",
+      "png": "/icons/folder.png",
+      "dotlottie": "/icons/folder.lottie",
+      "aep": "/icons/folder.aep"
+    },
+    {
+      "id": "icon77",
+      "name": "Box",
+      "keywords": ["box", "container", "storage", "package", "carton", "ship", "parcel", "bundle", "delivery", "crate", "organized", "inventory", "product", "shipping", "storage box"],
+      "svg": "/icons/box.svg",
+      "lottie": "/icons/box.json",
+      "png": "/icons/box.png",
+      "dotlottie": "/icons/box.lottie",
+      "aep": "/icons/box.aep"
+    },
+    {
+      "id": "icon78",
+      "name": "Bank",
+      "keywords": ["bank", "finance", "money", "institution", "building", "economy", "account", "loan", "business", "investment", "currency", "deposit", "ATM", "financial", "transaction"],
+      "svg": "/icons/bank.svg",
+      "lottie": "/icons/bank.json",
+      "png": "/icons/bank.png",
+      "dotlottie": "/icons/bank.lottie",
+      "aep": "/icons/bank.aep"
+    },
+    {
+      "id": "icon79",
+      "name": "QR Code",
+      "keywords": ["QR code", "scan", "barcode", "scan me", "data", "technology", "information", "digital", "code", "quick response", "link", "mobile", "smartphone", "access", "e-commerce"],
+      "svg": "/icons/qr-code.svg",
+      "lottie": "/icons/qr-code.json",
+      "png": "/icons/qr-code.png",
+      "dotlottie": "/icons/qr-code.lottie",
+      "aep": "/icons/qr-code.aep"
+    },
+    {
+      "id": "icon80",
+      "name": "Electricity",
+      "keywords": ["electricity", "power", "energy", "electric", "wire", "current", "lightning", "electrical", "charge", "plug", "battery", "circuit", "volt", "electric power", "supply"],
+      "svg": "/icons/electricity.svg",
+      "lottie": "/icons/electricity.json",
+      "png": "/icons/electricity.png",
+      "dotlottie": "/icons/electricity.lottie",
+      "aep": "/icons/electricity.aep"
+    },
+    {
+      "id": "icon81",
+      "name": "Clipboard",
+      "keywords": ["clipboard", "note", "document", "record", "file", "task", "checklist", "paper", "notes", "organization", "reminder", "schedule", "list", "office", "clipboard icon"],
+      "svg": "/icons/clipboard.svg",
+      "lottie": "/icons/clipboard.json",
+      "png": "/icons/clipboard.png",
+      "dotlottie": "/icons/clipboard.lottie",
+      "aep": "/icons/clipboard.aep"
+    },
+    {
+      "id": "icon82",
+      "name": "Setting",
+      "keywords": ["setting", "gear", "tools", "adjust", "configuration", "preferences", "options", "preferences", "control", "customize", "setup", "system", "modify", "preferences icon", "management"],
+      "svg": "/icons/setting.svg",
+      "lottie": "/icons/setting.json",
+      "png": "/icons/setting.png",
+      "dotlottie": "/icons/setting.lottie",
+      "aep": "/icons/setting.aep"
+    },
+    {
+      "id": "icon83",
+      "name": "Credit Card",
+      "keywords": ["credit card", "payment", "banking", "finance", "card", "transaction", "shopping", "purchase", "debit", "money", "account", "finance management", "buy", "plastic card", "credit"],
+      "svg": "/icons/credit-card.svg",
+      "lottie": "/icons/credit-card.json",
+      "png": "/icons/credit-card.png",
+      "dotlottie": "/icons/credit-card.lottie",
+      "aep": "/icons/credit-card.aep"
+    },
+    {
+      "id": "icon84",
+      "name": "Compass",
+      "keywords": ["compass", "direction", "navigation", "travel", "map", "orientation", "locate", "exploration", "guide", "north", "south", "east", "west", "location", "navigation tool"],
+      "svg": "/icons/compass.svg",
+      "lottie": "/icons/compass.json",
+      "png": "/icons/compass.png",
+      "dotlottie": "/icons/compass.lottie",
+      "aep": "/icons/compass.aep"
+    },
+    {
+      "id": "icon85",
+      "name": "Ticket",
+      "keywords": ["ticket", "admission", "pass", "entry", "event", "access", "reservation", "stub", "movie", "concert", "theater", "travel", "voucher", "entry pass", "boarding pass"],
+      "svg": "/icons/ticket.svg",
+      "lottie": "/icons/ticket.json",
+      "png": "/icons/ticket.png",
+      "dotlottie": "/icons/ticket.lottie",
+      "aep": "/icons/ticket.aep"
+    },
+    {
+      "id": "icon86",
+      "name": "Sound Off",
+      "keywords": ["sound off", "mute", "volume", "audio", "silence", "quiet", "speaker", "audio off", "mute icon", "no sound", "no volume", "turn off", "music off", "sound control"],
+      "svg": "/icons/sound-off.svg",
+      "lottie": "/icons/sound-off.json",
+      "png": "/icons/sound-off.png",
+      "dotlottie": "/icons/sound-off.lottie",
+      "aep": "/icons/sound-off.aep"
+    },
+    {
+      "id": "icon87",
+      "name": "Translation",
+      "keywords": ["translation", "language", "translate", "text", "interpret", "convert", "multilingual", "dictionary", "foreign", "communication", "global", "languages", "globalization", "interpretation", "speech"],
+      "svg": "/icons/translation.svg",
+      "lottie": "/icons/translation.json",
+      "png": "/icons/translation.png",
+      "dotlottie": "/icons/translation.lottie",
+      "aep": "/icons/translation.aep"
+    },
+    {
+      "id": "icon88",
+      "name": "Boat",
+      "keywords": ["boat", "ship", "water", "sailing", "navigation", "transport", "maritime", "ocean", "travel", "sea", "marine", "cruise", "vessel", "river", "ferry"],
+      "svg": "/icons/boat.svg",
+      "lottie": "/icons/boat.json",
+      "png": "/icons/boat.png",
+      "dotlottie": "/icons/boat.lottie",
+      "aep": "/icons/boat.aep"
+    },
+    {
+      "id": "icon89",
+      "name": "Pencil",
+      "keywords": ["pencil", "writing", "drawing", "sketch", "edit", "design", "create", "art", "draft", "scribble", "marker", "notebook", "school", "note", "write"],
+      "svg": "/icons/pencil.svg",
+      "lottie": "/icons/pencil.json",
+      "png": "/icons/pencil.png",
+      "dotlottie": "/icons/pencil.lottie",
+      "aep": "/icons/pencil.aep"
+    },
+    {
+      "id": "icon90",
+      "name": "Vector",
+      "keywords": ["vector", "graphic", "illustration", "design", "art", "shape", "scalable", "SVG", "geometry", "lines", "digital", "image", "vector graphics", "artwork", "path"],
+      "svg": "/icons/vector.svg",
+      "lottie": "/icons/vector.json",
+      "png": "/icons/vector.png",
+      "dotlottie": "/icons/vector.lottie",
+      "aep": "/icons/vector.aep"
+    },
+    {
+      "id": "icon91",
+      "name": "Animation",
+      "keywords": ["animation", "motion", "cartoon", "video", "sequence", "movement", "frame", "GIF", "2D", "3D", "design", "dynamic", "effects", "transition", "visual"],
+      "svg": "/icons/animation.svg",
+      "lottie": "/icons/animation.json",
+      "png": "/icons/animation.png",
+      "dotlottie": "/icons/animation.lottie",
+      "aep": "/icons/animation.aep"
+    },
+    {
+      "id": "icon92",
+      "name": "Color",
+      "keywords": ["color", "palette", "shade", "hue", "paint", "spectrum", "swatch", "design", "customize", "color wheel", "tint", "mix", "paintbrush", "style", "visual"],
+      "svg": "/icons/color.svg",
+      "lottie": "/icons/color.json",
+      "png": "/icons/color.png",
+      "dotlottie": "/icons/color.lottie",
+      "aep": "/icons/color.aep"
+    },
+    {
+      "id": "icon93",
+      "name": "Battery",
+      "keywords": ["battery", "power", "charge", "energy", "charging", "electric", "level", "full", "empty", "device", "voltage", "portable", "electrical", "mobile", "energy icon"],
+      "svg": "/icons/battery.svg",
+      "lottie": "/icons/battery.json",
+      "png": "/icons/battery.png",
+      "dotlottie": "/icons/battery.lottie",
+      "aep": "/icons/battery.aep"
+    },
+    {
+      "id": "icon94",
+      "name": "Voice",
+      "keywords": ["voice", "microphone", "sound", "audio", "speak", "record", "speech", "talk", "communication", "voice control", "dictation", "audio input", "speak out", "talking", "voice message"],
+      "svg": "/icons/voice.svg",
+      "lottie": "/icons/voice.json",
+      "png": "/icons/voice.png",
+      "dotlottie": "/icons/voice.lottie",
+      "aep": "/icons/voice.aep"
+    },
+    {
+      "id": "icon95",
+      "name": "Link",
+      "keywords": ["link", "url", "connection", "website", "hyperlink", "web", "address", "navigate", "web link", "redirect", "shortcut", "reference", "chain", "connect", "chain link"],
+      "svg": "/icons/link.svg",
+      "lottie": "/icons/link.json",
+      "png": "/icons/link.png",
+      "dotlottie": "/icons/link.lottie",
+      "aep": "/icons/link.aep"
+    }
+  ]
+  
