@@ -21,7 +21,7 @@ const How = () => {
                             src='/icons/UI/website.lottie'
                             autoplay
                             loop
-                            className='w-[96vw] h-[80vw] md:w-[27vw] md:h-[22.5vw]'
+                            className='w-[97vw] h-[80.83vw] translate-y-4 md:translate-y-0 md:w-[27vw] md:h-[22.5vw]'
                         />
                     </div>
                     <div className='w-full md:w-1/2 overflow-hidden rounded-xl h-72 md:h-full from-[#eeebfb] via-[#ebf2fb] to-[#dff3f9] bg-gradient-to-b md:mt-4 flex justify-center items-end drop-shadow-sm'>
@@ -29,7 +29,7 @@ const How = () => {
                             src='/icons/UI/phone-app.lottie'
                             autoplay
                             loop
-                            className='w-[96vw] h-[80vw] md:w-[27vw] md:h-[22.5vw]'
+                            className='w-[96vw] h-[80vw] translate-y-4 md:translate-y-0 md:w-[27vw] md:h-[22.5vw]'
                         />
                     </div>
                 </div>

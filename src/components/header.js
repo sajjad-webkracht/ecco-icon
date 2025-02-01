@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'gatsby';
 
 const Header = () => {
@@ -8,6 +8,19 @@ const Header = () => {
       setMenuOpen(!menuOpen);
     };
 
+    useEffect(() => {
+        if (menuOpen) {
+          document.body.classList.add('no-scroll');
+        } else {
+          document.body.classList.remove('no-scroll');
+        }
+    
+        // Cleanup function to remove the class when the component unmounts
+        return () => {
+          document.body.classList.remove('no-scroll');
+        };
+      }, [menuOpen]);
+
     return (
         <header className='py-4 px-4 md:px-12 flex justify-between items-center'>
             <div className='hidden md:flex md:w-1/3 gap-7 items-center'>
@@ -15,6 +28,9 @@ const Header = () => {
                 <span className="absolute left-0 bottom-0 w-0 h-0.5 rounded-md bg-gradient-to-r from-[#69bbeb] to-[#d7defa] transition-all duration-500 group-hover:w-full"></span>
                 </Link>
                 <Link to='/about' className='text-zinc-800 text-base relative group'>About
+                <span className="absolute left-0 bottom-0 w-0 h-0.5 rounded-md bg-gradient-to-r from-[#69bbeb] to-[#d7defa] transition-all duration-500 group-hover:w-full"></span>
+                </Link>
+                <Link to='/explore' className='text-zinc-800 text-base relative group'>Explore
                 <span className="absolute left-0 bottom-0 w-0 h-0.5 rounded-md bg-gradient-to-r from-[#69bbeb] to-[#d7defa] transition-all duration-500 group-hover:w-full"></span>
                 </Link>
             </div>
@@ -44,9 +60,10 @@ const Header = () => {
                 </button>
                 <div className='bg-slate-50 h-full w-full rounded-l-lg p-4 flex flex-col gap-4 justify-between'>
                     <div className='flex flex-col gap-4'>
+                        <Link to='/explore' className='text-zinc-800 text-base'>Explore</Link>
                         <Link to='/how-to-use' className='text-zinc-800 text-base'>How to Use</Link>
                         <Link to='/about' className='text-zinc-800 text-base'>About</Link>
-                        <Link to='/about' className='text-zinc-800 text-base'>Donate</Link>
+                        <Link to='/donate' className='text-zinc-800 text-base'>Donate</Link>
                     </div>
                     <div>
                         <span className='text-zinc-500 text-sm'>

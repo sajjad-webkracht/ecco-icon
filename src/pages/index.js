@@ -24,7 +24,7 @@ export default IndexPage
 
 export const Head = () => (
   <Seo 
-    title="Home Page" 
+    title="Access Free Animated Icons" 
     description="This is a free personal project designed for the creative community, featuring 95 animated icons made with Lottie. It will always remain free, but your support through donations would greatly help sustain the service and expand the icon pack." 
   />
 )

@@ -1,8 +1,7 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Ecco from '../images/ecco.svg';
-import { Link } from 'gatsby';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import Seo from '../components/seo'
 
