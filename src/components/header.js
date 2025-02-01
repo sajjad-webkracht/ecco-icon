@@ -67,7 +67,7 @@ const Header = () => {
                     </div>
                     <div>
                         <span className='text-zinc-500 text-sm'>
-                            Created by <a href='https://sajjaddashti.ir' className='underline'>Sajjad Dashti</a>. Licensed under the <a href='https://creativecommons.org/licenses/by/4.0/' className='underline'>under the Creative Commons Attribution 4.0 International (CC BY 4.0)</a>.
+                            Created by <a href='https://sajjaddashti.ir' className='underline'>Sajjad Dashti</a>. Licensed under the <a href='https://creativecommons.org/licenses/by/4.0/' className='underline'>Creative Commons Attribution 4.0 International (CC BY 4.0)</a>.
                         </span>
                     </div>
                 </div>
