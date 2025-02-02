@@ -34,7 +34,7 @@ export default Donate
 
 export const Head = () => (
   <Seo 
-    title="Error 404" 
-    description="Page Not Found" 
+    title="Donate" 
+    description="Your contribution, no matter how small, makes a huge difference. It allows me to continue dedicating time to this personal project and keep it free for everyone to enjoy." 
   />
 )
