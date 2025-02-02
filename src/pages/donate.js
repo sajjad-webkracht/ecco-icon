@@ -1,9 +1,7 @@
 import * as React from "react"
-import { Link } from "gatsby"
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Seo from '../components/seo'
-import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
 
 
