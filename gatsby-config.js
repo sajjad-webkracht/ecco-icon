@@ -4,7 +4,7 @@
 module.exports = {
   siteMetadata: {
     title: `Ecco Icon`,
-    siteUrl: `https://www.yourdomain.tld`
+    siteUrl: `https://www.eccoicon.com`
   },
   plugins: ["gatsby-plugin-postcss",
     `gatsby-plugin-image`,
@@ -32,6 +32,12 @@ module.exports = {
       options: {
         source: `${__dirname}/src/icons`,
         destination: `/icons`,
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: "G-B7HHVBGL09", // Replace with your actual tracking ID
       },
     },
   ]

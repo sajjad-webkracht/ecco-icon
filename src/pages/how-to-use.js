@@ -171,7 +171,7 @@ const HowToUse = () => {
                         </p>
                         <img src={Color_Guide_1} alt='Color Guide Screenshot' className='w-full my-8' />
                         <p className='mb-2 text-zinc-600'>
-                            If you want to export to dotLottie, ensure that the colors are correctly applied in the exported file by using the latest <a href='https://lottiefiles.com/plugins/after-effects' target='_blank' className='text-ao font-bold'>LottieFiles plugin</a> . In the Rendering Settings, make sure to check "Convert Expressions to Keyframes."
+                            If you want to export to dotLottie, ensure that the colors are correctly applied in the exported file by using the latest <a href='https://lottiefiles.com/plugins/after-effects' target='_blank' className='text-ao font-bold'>LottieFiles plugin</a>. In the Rendering Settings, make sure to check "Convert Expressions to Keyframes."
                         </p>
                         <img src={Color_Guide_2} alt='Color Guide Screenshot' className='w-full mt-8 mb-16' />
                         <Caution text={"There are online tools that allow you to change the color of Lottie animations without using After Effects. However, be cautious, as some of these tools may cause unexpected rendering issues. I developed a module to change animation colors directly on the Ecco Icon platform and also encountered these unexpected issues in the rendered animations. The exact cause remains unknown to me."} />
