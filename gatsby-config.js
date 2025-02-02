@@ -35,7 +35,7 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingId: "G-B7HHVBGL09", // Replace with your actual tracking ID
       },
