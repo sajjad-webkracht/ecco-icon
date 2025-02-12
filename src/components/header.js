@@ -39,7 +39,7 @@ const Header = () => {
 
     return (
         <div className='mt-20'>
-            <header className={`py-4 px-4 md:px-12 flex justify-between items-center fixed top-0 w-full z-30 bg-white duration-700 rounded-xl ${scrolled ? 'shadow-lg mx-4 md:mx-12 mt-5 w-[calc(100%-32px)] md:w-[calc(100%-96px)] md:px-5' : ''}`}>
+            <header className={`py-4 px-4 md:px-12 flex justify-between items-center fixed top-0 z-30 bg-white duration-700 rounded-xl ${scrolled ? 'shadow-lg mx-4 md:mx-12 mt-5 w-[calc(100%-32px)] md:w-[calc(100%-96px)] md:px-5' : 'w-full'}`}>
                 <div className='hidden md:flex md:w-1/3 gap-7 items-center'>
                     <Link to='/how-to-use' className='text-zinc-800 text-base relative group'>How to Use
                         <span className="absolute left-0 bottom-0 w-0 h-0.5 rounded-md bg-gradient-to-r from-[#69bbeb] to-[#d7defa] transition-all duration-500 group-hover:w-full"></span>
