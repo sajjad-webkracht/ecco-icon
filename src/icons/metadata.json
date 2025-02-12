@@ -948,6 +948,136 @@
       "png": "/icons/link.png",
       "dotlottie": "/icons/link.lottie",
       "aep": "/icons/link.aep"
+    },
+    {
+      "id": "icon96",
+      "name": "Bitcoin",
+      "keywords": ["Bitcoin", "BTC", "cryptocurrency", "blockchain", "decentralized", "digital currency", "web3", "smart contracts", "decentralized finance", "DeFi", "NFT", "token", "wallet", "mining", "peer-to-peer", "ledger", "consensus", "proof of work", "PoW", "satoshi", "halving", "private key", "public key", "exchange", "crypto", "dApp", "metaverse", "interoperability", "oracle", "staking", "layer 2", "scalability", "immutable", "trustless", "permissionless"],
+      "svg": "/icons/bitcoin.svg",
+      "lottie": "/icons/bitcoin.json",
+      "png": "/icons/bitcoin.png",
+      "dotlottie": "/icons/bitcoin.lottie",
+      "aep": "/icons/bitcoin.aep"
+    },
+    {
+      "id": "icon97",
+      "name": "Ethereum",
+      "keywords": ["Ethereum", "ETH", "cryptocurrency", "blockchain", "smart contracts", "web3", "decentralized", "decentralized finance", "DeFi", "NFT", "token", "wallet", "gas fee", "proof of stake", "PoS", "Ethereum 2.0", "dApp", "decentralized application", "oracle", "staking", "layer 2", "scalability", "interoperability", "metaverse", "immutable", "trustless", "permissionless", "ERC-20", "ERC-721", "sharding", "validator", "consensus", "crypto", "exchange", "private key", "public key"],
+      "svg": "/icons/ethereum.svg",
+      "lottie": "/icons/ethereum.json",
+      "png": "/icons/ethereum.png",
+      "dotlottie": "/icons/ethereum.lottie",
+      "aep": "/icons/ethereum.aep"
+    },
+    {
+      "id": "icon98",
+      "name": "Blockchain",
+      "keywords": ["Blockchain", "distributed ledger", "decentralized", "cryptocurrency", "web3", "smart contracts", "consensus", "proof of work", "PoW", "proof of stake", "PoS", "immutable", "transparency", "security", "nodes", "mining", "staking", "token", "NFT", "decentralized finance", "DeFi", "dApp", "interoperability", "scalability", "layer 2", "private key", "public key", "wallet", "exchange", "trustless", "permissionless", "oracle", "metaverse", "crypto", "hash", "genesis block", "fork", "sharding"],
+      "svg": "/icons/blockchain.svg",
+      "lottie": "/icons/blockchain.json",
+      "png": "/icons/blockchain.png",
+      "dotlottie": "/icons/blockchain.lottie",
+      "aep": "/icons/blockchain.aep"
+    },
+    {
+      "id": "icon99",
+      "name": "Decentralized",
+      "keywords": ["decentralized", "decentralization", "blockchain", "web3", "distributed ledger", "peer-to-peer", "cryptocurrency", "smart contracts", "decentralized finance", "DeFi", "NFT", "dApp", "decentralized application", "nodes", "consensus", "trustless", "permissionless", "immutable", "transparency", "autonomy", "governance", "token", "wallet", "staking", "mining", "interoperability", "scalability", "layer 2", "oracle", "metaverse", "crypto", "private key", "public key", "exchange", "hash", "fork"],
+      "svg": "/icons/decentralized.svg",
+      "lottie": "/icons/decentralized.json",
+      "png": "/icons/decentralized.png",
+      "dotlottie": "/icons/decentralized.lottie",
+      "aep": "/icons/decentralized.aep"
+    },
+    {
+      "id": "icon100",
+      "name": "Wallet",
+      "keywords": ["wallet", "crypto wallet", "blockchain wallet", "web3 wallet", "digital wallet", "private key", "public key", "seed phrase", "recovery phrase", "cold wallet", "hot wallet", "hardware wallet", "software wallet", "mobile wallet", "desktop wallet", "browser wallet", "non-custodial wallet", "custodial wallet", "multi-signature wallet", "DeFi wallet", "NFT wallet", "token storage", "wallet address", "wallet security", "wallet integration", "wallet connectivity", "wallet provider", "wallet backup", "wallet recovery", "wallet encryption", "wallet interoperability", "wallet app", "wallet management", "wallet balance", "wallet transaction"],
+      "svg": "/icons/wallet.svg",
+      "lottie": "/icons/wallet.json",
+      "png": "/icons/wallet.png",
+      "dotlottie": "/icons/wallet.lottie",
+      "aep": "/icons/wallet.aep"
+    },
+    {
+      "id": "icon101",
+      "name": "Smart Contract",
+      "keywords": ["smart contract", "blockchain", "web3", "decentralized", "Ethereum", "solidity", "dApp", "decentralized application", "automation", "self-executing", "code", "programmable", "trustless", "immutable", "transparency", "DeFi", "decentralized finance", "NFT", "token", "oracle", "consensus", "gas fee", "execution", "validation", "audit", "security", "interoperability", "scalability", "layer 2", "metaverse", "crypto", "wallet integration", "transaction", "contract address", "blockchain protocol"],
+      "svg": "/icons/smart-contract.svg",
+      "lottie": "/icons/smart-contract.json",
+      "png": "/icons/smart-contract.png",
+      "dotlottie": "/icons/smart-contract.lottie",
+      "aep": "/icons/smart-contract.aep"
+    },
+    {
+      "id": "icon102",
+      "name": "NFT",
+      "keywords": ["NFT", "non-fungible token", "blockchain", "web3", "digital art", "collectibles", "ownership", "metadata", "smart contract", "Ethereum", "ERC-721", "ERC-1155", "marketplace", "crypto art", "tokenization", "decentralized", "wallet", "wallet integration", "minting", "gas fee", "rarity", "provenance", "interoperability", "scalability", "metaverse", "virtual assets", "gaming", "DeFi", "decentralized finance", "royalties", "auction", "bid", "creator economy", "digital ownership", "immutable", "transparency", "crypto", "wallet address", "transaction"],
+      "svg": "/icons/nft.svg",
+      "lottie": "/icons/nft.json",
+      "png": "/icons/nft.png",
+      "dotlottie": "/icons/nft.lottie",
+      "aep": "/icons/nft.aep"
+    },
+    {
+      "id": "icon103",
+      "name": "Biometric",
+      "keywords": ["biometric", "biometrics", "fingerprint", "facial recognition", "iris scan", "voice recognition", "authentication", "security", "identity verification", "biometric data", "biometric system", "biometric technology", "biometric sensor", "biometric device", "biometric authentication", "biometric identification", "biometric access", "biometric scanner", "biometric software", "biometric hardware", "biometric encryption", "biometric privacy", "biometric security", "biometric template", "multimodal biometrics", "behavioral biometrics", "physiological biometrics", "biometric integration", "biometric algorithm", "biometric standards", "biometric accuracy", "biometric enrollment", "biometric matching", "biometric verification", "web3", "decentralized identity", "blockchain authentication", "self-sovereign identity", "crypto security", "wallet integration", "smart contract", "trustless systems", "permissionless access"],
+      "svg": "/icons/biometric.svg",
+      "lottie": "/icons/biometric.json",
+      "png": "/icons/biometric.png",
+      "dotlottie": "/icons/biometric.lottie",
+      "aep": "/icons/biometric.aep"
+    },
+    {
+      "id": "icon104",
+      "name": "Gas Fee",
+      "keywords": ["gas fee", "transaction fee", "blockchain fee", "web3 fee", "network fee", "Ethereum gas", "crypto fee", "miner fee", "gas limit", "gas price", "fuel fee", "blockchain cost", "smart contract fee", "DeFi fee", "NFT fee", "wallet fee", "gas optimization", "gas calculation", "gas tracker", "gas war", "fee market", "priority fee", "base fee", "gas refund", "gas efficiency", "web3 transaction", "blockchain network", "crypto transaction", "fee structure", "gas economy", "gas token", "fee estimation", "fee adjustment", "fee reduction", "fee management"],
+      "svg": "/icons/gas-fee.svg",
+      "lottie": "/icons/gas-fee.json",
+      "png": "/icons/gas-fee.png",
+      "dotlottie": "/icons/gas-fee.lottie",
+      "aep": "/icons/gas-fee.aep"
+    },
+    {
+      "id": "icon105",
+      "name": "DID",
+      "keywords": ["decentralized identifier", "DID", "web3", "blockchain", "self-sovereign identity", "SSI", "identity verification", "decentralized identity", "digital identity", "verifiable credentials", "identity management", "DID method", "DID document", "public key", "private key", "cryptographic keys", "trustless systems", "permissionless access", "interoperability", "privacy", "security", "authentication", "decentralized authentication", "identity wallet", "blockchain-based identity", "identity protocol", "DID resolver", "DID registry", "immutable identity", "user-controlled identity", "peer-to-peer identity", "identity framework", "identity standards", "W3C DID", "decentralized ecosystem", "crypto identity", "web3 identity"],
+      "svg": "/icons/did.svg",
+      "lottie": "/icons/did.json",
+      "png": "/icons/did.png",
+      "dotlottie": "/icons/did.lottie",
+      "aep": "/icons/did.aep"
+    },
+    {
+      "id": "icon106",
+      "name": "DEX",
+      "keywords": ["DEX", "decentralized exchange", "web3 exchange", "crypto exchange", "blockchain trading", "peer-to-peer trading", "token swap", "liquidity pool", "automated market maker", "AMM", "DeFi exchange", "web3 trading", "crypto trading", "wallet integration", "smart contract exchange", "non-custodial exchange", "permissionless trading", "trustless trading", "token pair", "trading fee", "slippage", "price impact", "yield farming", "staking", "liquidity provider", "LP token", "interoperability", "cross-chain trading", "order book", "decentralized finance", "crypto wallet", "token exchange", "web3 platform", "blockchain protocol", "crypto liquidity", "decentralized ecosystem"],
+      "svg": "/icons/dex.svg",
+      "lottie": "/icons/dex.json",
+      "png": "/icons/dex.png",
+      "dotlottie": "/icons/dex.lottie",
+      "aep": "/icons/dex.aep"
+    },
+    {
+      "id": "icon107",
+      "name": "CEX",
+      "keywords": ["CEX", "centralized exchange", "crypto exchange", "web3 trading", "blockchain trading", "fiat on-ramp", "trading platform", "order book", "liquidity", "trading fee", "crypto trading", "wallet integration", "custodial exchange", "KYC", "AML", "crypto wallet", "token listing", "market maker", "trading pairs", "crypto liquidity", "exchange security", "user interface", "trading tools", "web3 ecosystem", "blockchain integration", "crypto market", "exchange token", "trading volume", "withdrawal fee", "deposit fee", "API integration", "crypto regulations", "exchange compliance", "centralized finance", "CeFi", "crypto assets", "exchange platform", "trading experience"],
+      "svg": "/icons/cex.svg",
+      "lottie": "/icons/cex.json",
+      "png": "/icons/cex.png",
+      "dotlottie": "/icons/cex.lottie",
+      "aep": "/icons/cex.aep"
+    },
+    {
+      "id": "icon108",
+      "name": "Notification",
+      "keywords": ["notification", "bell icon", "alert", "reminder", "notification bell", "push notification", "notification center", "notification alert", "notification sound", "notification badge", "notification settings", "notification management", "notification system", "notification popup", "notification bell icon", "notification design", "notification animation", "notification UI", "notification UX", "notification indicator", "notification bell sound", "notification bell animation", "notification bell badge", "notification bell alert", "notification bell reminder", "notification bell design", "notification bell style", "notification bell interface", "notification bell system", "notification bell popup", "notification bell management", "notification bell settings", "notification bell sound effect", "notification bell visual", "notification bell interaction"],
+      "svg": "/icons/notification.svg",
+      "lottie": "/icons/notification.json",
+      "png": "/icons/notification.png",
+      "dotlottie": "/icons/notification.lottie",
+      "aep": "/icons/notification.aep"
     }
   ]
   

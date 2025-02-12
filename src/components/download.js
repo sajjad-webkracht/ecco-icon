@@ -47,7 +47,7 @@ const Download = ({ icon, onClose }) => {
     
     
     return (
-        <div className="fixed inset-0 bg-zinc-900 bg-opacity-80 md:flex justify-center items-center overflow-y-scroll">
+        <div className="fixed z-40 inset-0 bg-zinc-900 bg-opacity-80 md:flex justify-center items-center overflow-y-scroll">
             <div className="bg-white p-4 md:rounded-xl relative w-full md:w-11/12 lg:w-9/12 flex flex-col md:flex-row gap-4 overflow-y-scroll items-end md:items-stretch">
                 
                 <button onClick={handleClose}  className="bg-zinc-800 hover:bg-zinc-700 duration-200 text-white p-3 rounded md:absolute top-4 right-4 w-fit"><img src={CloseIcon} alt='Close' className='w-3' /></button>
@@ -74,22 +74,22 @@ const Download = ({ icon, onClose }) => {
                         </a>
 
                         <div className='flex flex-col lg:flex-row gap-2 mt-2'>
-                            <a href={icon.lottie} download className='text-zinc-800 group bg-zinc-50 hover:bg-zinc-100 rounded-md text-base duration-500 overflow-hidden flex items-center justify-center gap-3 w-full lg:w-1/2 h-12 border-2 border-zinc-200'>
+                            <a href={icon.lottie} download className='text-zinc-800 group bg-zinc-50 hover:bg-zinc-100 rounded-md text-base duration-500 overflow-hidden flex items-center justify-center gap-3 w-full lg:w-1/2 h-12 border-2 border-zinc-200 active:border-zinc-300'>
                                 <img src={DownloadDarkIcon} alt='Download Icon' className='w-5' />
                                 Download JSON
                             </a>
-                            <a href={icon.aep} download className='text-zinc-800 group bg-zinc-50 hover:bg-zinc-100 rounded-md text-base duration-500 overflow-hidden flex items-center justify-center gap-3 w-full lg:w-1/2 h-12 border-2 border-zinc-200'>
+                            <a href={icon.aep} download className='text-zinc-800 group bg-zinc-50 hover:bg-zinc-100 rounded-md text-base duration-500 overflow-hidden flex items-center justify-center gap-3 w-full lg:w-1/2 h-12 border-2 border-zinc-200 active:border-zinc-300'>
                                 <img src={DownloadDarkIcon} alt='Download Icon' className='w-5' />
                                 Download AEP
                             </a>
                         </div>
 
                         <div className='flex flex-col lg:flex-row gap-2 mt-2'>
-                            <a href={icon.svg} download className='text-zinc-800 group bg-zinc-50 hover:bg-zinc-100 rounded-md text-base duration-500 overflow-hidden flex items-center justify-center gap-3 w-full lg:w-1/2 h-12 border-2 border-zinc-200'>
+                            <a href={icon.svg} download className='text-zinc-800 group bg-zinc-50 hover:bg-zinc-100 rounded-md text-base duration-500 overflow-hidden flex items-center justify-center gap-3 w-full lg:w-1/2 h-12 border-2 border-zinc-200 active:border-zinc-300'>
                                 <img src={DownloadDarkIcon} alt='Download Icon' className='w-5' />
                                 Download SVG
                             </a>
-                            <a href={icon.png} download className='text-zinc-800 group bg-zinc-50 hover:bg-zinc-100 rounded-md text-base duration-500 overflow-hidden flex items-center justify-center gap-3 w-full lg:w-1/2 h-12 border-2 border-zinc-200'>
+                            <a href={icon.png} download className='text-zinc-800 group bg-zinc-50 hover:bg-zinc-100 rounded-md text-base duration-500 overflow-hidden flex items-center justify-center gap-3 w-full lg:w-1/2 h-12 border-2 border-zinc-200 active:border-zinc-300'>
                                 <img src={DownloadDarkIcon} alt='Download Icon' className='w-5' />
                                 Download PNG
                             </a>

@@ -7,6 +7,7 @@ import Download from '../components/download';
 import SearchIcon from '../images/search.svg';
 import SearchForm from '../components/searchform';
 import Seo from '../components/seo'
+import Scrollup from '../components/scrollup'
 
 
 const Explore = ({ data }) => {
@@ -65,6 +66,7 @@ const Explore = ({ data }) => {
             </div>
             {selectedIcon && <Download icon={selectedIcon} onClose={handleClosePopup} />}
             <Footer />
+            <Scrollup />
         </main>
     );
 };

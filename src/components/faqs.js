@@ -43,9 +43,9 @@ const Faqs = () => {
                         </h3>
                         <img src={Down} className={`w-7 transform transition-transform duration-300 ${visibleIndex === index ? 'rotate-180' : ''}`} />
                     </div>
-                    {visibleIndex === index && (
+                    <div className={`transition-opacity duration-500 ${visibleIndex === index ? 'opacity-100 max-h-screen' : 'opacity-0 max-h-0 overflow-hidden'}`}>
                         <p className="mt-4 text-gray-700">{faq.answer}</p>
-                    )}
+                    </div>
                 </div>
             ))}
             </div>

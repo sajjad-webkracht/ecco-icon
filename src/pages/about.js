@@ -4,6 +4,7 @@ import Footer from '../components/footer';
 import Ecco from '../images/ecco.svg';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import Seo from '../components/seo'
+import Scrollup from '../components/scrollup'
 
 
 const About = () => {
@@ -98,6 +99,7 @@ const About = () => {
 
             </div>
             <Footer />
+            <Scrollup />
         </div>
     );
 };

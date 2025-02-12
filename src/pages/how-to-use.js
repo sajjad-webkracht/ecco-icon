@@ -61,7 +61,7 @@ const HowToUse = () => {
         <div>
             <Header />
             <div className='mb-12 md:mb-0 py-4 md:pb-16 px-4 md:px-12 flex flex-col md:flex-row md:mt-12 gap-4 md:gap-12 items-start'>
-                <div className='w-full md:w-1/4 bg-zinc-100 rounded-xl flex flex-col gap-3 py-4 md:sticky top-12 mb-7 md:mb-0'>
+                <div className='w-full md:w-1/4 bg-zinc-100 rounded-xl flex flex-col gap-3 py-4 md:sticky top-[95px] mb-7 md:mb-0'>
                     <a href='#introduction' className='text-zinc-800 w-full pr-4 group flex h-7 items-center duration-700 hover:-tracking-wide'>
                         <div className='w-0 group-hover:w-4 opacity-0 group-hover:opacity-100 duration-700 h-full mr-4 bg-gradient-to-r from-ao to-[#d7defa] rounded-r-xl' />
                         Introduction

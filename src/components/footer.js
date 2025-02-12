@@ -8,7 +8,7 @@ const Footer = () => {
                 <div className='flex flex-col md:flex-row gap-10 md:gap-12 mb-20'>
                     <div className='w-full md:w-1/3 flex flex-col gap-2'>
                         <h2 className='text-3xl'><b>ECCO</b>ICON</h2>
-                        <p className='text-sm md:w-3/4 text-zinc-300'>This is a free personal project created by <a href='https://sajjaddashti.ir/' className='underline' target="_blank">Sajjad Dashti</a> for the creative community, featuring 95 animated icons made with Lottie and licensed under the <a href='https://creativecommons.org/licenses/by/4.0/' className='underline' target="_blank">Creative Commons Attribution 4.0 International (CC BY 4.0)</a> License.</p>
+                        <p className='text-sm md:w-3/4 text-zinc-300'>This is a free personal project created by <a href='https://sajjaddashti.ir/' className='underline' target="_blank">Sajjad Dashti</a> for the creative community, featuring 100+ animated icons made with Lottie and licensed under the <a href='https://creativecommons.org/licenses/by/4.0/' className='underline' target="_blank">Creative Commons Attribution 4.0 International (CC BY 4.0)</a> License.</p>
                     </div>
                     <div className='w-full md:w-1/3 flex flex-col gap-2'>
                         <h2 className='text-lg font-bold mb-1 md:mb-4'>Tutorials and Tools</h2>
