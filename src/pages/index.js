@@ -5,12 +5,14 @@ import Formats from "../components/formats"
 import How from "../components/how"
 import Footer from "../components/footer"
 import Faqs from "../components/faqs"
-import New from '../components/new'
 import Seo from '../components/seo'
 import Figma from '../components/figma'
 import Scrollup from '../components/scrollup'
+import ReactLibrary from "../components/react_library"
+import CookieNotice from "../components/cookie_notice"
 
 const IndexPage = () => {
+
   return (
     <main className="">
       <Header />
@@ -18,9 +20,11 @@ const IndexPage = () => {
       <Formats />
       <Figma />
       <How />
+      <ReactLibrary />
       <Faqs />
       <Footer />
       <Scrollup />
+      <CookieNotice />
     </main>
   )
 }

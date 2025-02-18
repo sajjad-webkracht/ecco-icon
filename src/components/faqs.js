@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import Question from '../images/question.svg';
 import Down from '../images/down.svg';
 
 const Faqs = () => {
@@ -25,16 +24,21 @@ const Faqs = () => {
         {
             question: "Can I Change the Color of an Icon?",
             answer: "Yes, you can! Every icon comes with an .aep file, allowing you to edit every detail, including its color. You can find a detailed guide on changing icon colors on the 'How to Use' page."
+        },
+        {
+            question: "What If I Need an Icon That's Missing?",
+            answer: "Just let me know! I'm always working on expanding Ecco Icon, and your icon suggestions are always welcome. Feel free to contact me at hi@sajjaddashti.ir."
         }
     ];
 
     return (
         <div className="py-4 md:py-16 px-4 md:px-12 flex flex-col md:flex-row gap-10">
-            <div className='w-full md:w-1/2'>
+            <div className='w-full md:w-1/3'>
+                <h3 className="text-lg font-bold text-ao mb-0">Do You Have a Question?</h3>
                 <h2 className="text-2xl font-bold text-zinc-800 mb-2">Frequently Asked Questions</h2>
                 <p className='text-base text-zinc-600'>Explore answers to frequently asked questions about the Ecco Icon Pack, including usage guidelines and licensing details.</p>
             </div>
-            <div className="w-full md:w-1/2">
+            <div className="w-full md:w-2/3">
             {faqs.map((faq, index) => (
                 <div key={index} className="p-4 border rounded-lg shadow-sm mb-4">
                     <div className='flex items-center justify-between cursor-pointer' onClick={() => toggleAnswerVisibility(index)}>

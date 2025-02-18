@@ -2,11 +2,14 @@ import React, { useEffect, useState } from 'react';
 import LottiePreviewDownload from './lottiepreviewdownload';
 import CloseIcon from '../images/close.svg';
 import { Link } from 'gatsby';
+import ExternalLink from '../components/external_link';
 import QuestionIcon from '../images/question.svg';
 import DownloadIcon from '../images/download.svg';
 import DownloadDarkIcon from '../images/download-dark.svg';
 import ColorIcon from '../images/color.svg';
 import ShareIcon from '../images/share.svg';
+import { Copy, Question } from 'react-ecco-static';
+
 
 const Download = ({ icon, onClose }) => {
     const [showCopiedMessage, setShowCopiedMessage] = useState(false);
@@ -45,6 +48,20 @@ const Download = ({ icon, onClose }) => {
         });
     };
     
+    const handleCopy = (event) => {
+        const button = event.currentTarget;
+        const span = button.previousElementSibling.previousElementSibling;
+        if (span) {
+            navigator.clipboard.writeText(span.textContent).then(() => {
+                setShowCopiedMessage(true);
+                setTimeout(() => {
+                    setShowCopiedMessage(false);
+                }, 3000);
+            }).catch(err => {
+                console.error('Failed to copy: ', err);
+            });
+        }
+    };
     
     return (
         <div className="fixed z-40 inset-0 bg-zinc-900 bg-opacity-80 md:flex justify-center items-center overflow-y-scroll">
@@ -95,16 +112,30 @@ const Download = ({ icon, onClose }) => {
                             </a>
                         </div>
 
+                        <code className='mt-2 bg-zinc-100 p-4 rounded-md text-sm text-zinc-700 flex justify-between items-center gap-2'>
+                            <span className='w-11/12 overflow-x-scroll'>&lt;{icon.name.replace(/ /g, '')} color="#000000" /&gt;</span>
+                            <a href='/how-to-use/#react' target='_blank'>
+                                <div className='w-6 hover:scale-110 duration-200'>
+                                    <Question color="#a1a1aa" />
+                                </div>
+                            </a>
+                            <button onClick={handleCopy}>
+                                <div className='w-6 hover:scale-110 duration-200'>
+                                    <Copy color="#a1a1aa" />
+                                </div>
+                            </button>
+                        </code>
+
                         <div className='mt-8'>
                             <h3 className='text-zinc-800 text-sm font-bold'>CC BY 4.0 License</h3>
-                            <p className='text-zinc-600 text-sm'>This icon is licensed under the <a href='https://creativecommons.org/licenses/by/4.0/' className='font-bold text-ao' target="_blank"> Creative Commons Attribution 4.0 International (CC BY 4.0)</a> license.</p>
+                            <p className='text-zinc-600 text-sm'>This icon is licensed under the <ExternalLink href='https://creativecommons.org/licenses/by/4.0/' target="_blank"> Creative Commons Attribution 4.0 International (CC BY 4.0)</ExternalLink> license.</p>
                         </div>
 
                         <div className='mt-8 p-4 rounded-md bg-ao bg-opacity-10 flex gap-4 items-start'>
                             <img src={QuestionIcon} className='w-7 mt-1 ml-1' />
                             <div>
                                 <h3 className='text-zinc-800 text-sm font-bold'>Learn How to Use</h3>
-                                <p className='text-zinc-600 text-sm'>If you're unsure how to use the animated icon, check out the guide <a href='/how-to-use' target='_blank' className='font-bold text-ao'>here</a>.</p>
+                                <p className='text-zinc-600 text-sm'>If you're unsure how to use the animated icon, check out the guide <ExternalLink href='/how-to-use' target='_blank'>here</ExternalLink>.</p>
                             </div>
                         </div>
                     </div>
@@ -112,7 +143,7 @@ const Download = ({ icon, onClose }) => {
             </div>
             {showCopiedMessage && (
                     <div className="absolute bottom-16 left-1/2 transform -translate-x-1/2 bg-ao text-white px-4 py-2 rounded">
-                        URL copied to clipboard
+                        Copied to Clipboard
                     </div>
                     )}
         </div>

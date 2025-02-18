@@ -4,6 +4,7 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import Seo from '../components/seo'
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
+import CookieNotice from "../components/cookie_notice"
 
 
 
@@ -32,6 +33,7 @@ const NotFoundPage = () => {
         </div>
       </div>
       <Footer />
+      <CookieNotice />
     </main>
   )
 }

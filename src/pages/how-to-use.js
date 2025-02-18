@@ -2,15 +2,19 @@ import React, { useEffect } from 'react';
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Caution from '../components/caution';
-import dangerIcon from '../images/danger.svg'
+import Code from '../components/code';
+import ExternalLink from '../components/external_link';
 import { Link } from 'gatsby';
 import Color_Guide_1 from '../images/guide_color_1.png'
 import Color_Guide_2 from '../images/guide_color_2.png'
 import Seo from '../components/seo'
+import CookieNotice from "../components/cookie_notice"
+
 
 
 const HowToUse = () => {
     useEffect(() => {
+        window.scrollTo(0, 0);
         const handleHashChange = () => {
           const hash = window.location.hash.substring(1);
           const sections = document.querySelectorAll('.section');
@@ -70,6 +74,10 @@ const HowToUse = () => {
                         <div className='w-0 group-hover:w-4 opacity-0 group-hover:opacity-100 duration-700 h-full mr-4 bg-gradient-to-r from-ao to-[#d7defa] rounded-r-xl' />
                         How to Use
                     </a>
+                    <a href='#react' className='text-zinc-800 w-full pr-4 group flex h-7 items-center duration-700 hover:tracking-wide'>
+                        <div className='w-0 group-hover:w-4 opacity-0 group-hover:opacity-100 duration-700 h-full mr-4 bg-gradient-to-r from-ao to-[#d7defa] rounded-r-xl' />
+                        React Library
+                    </a>
                     <a href='#compatibility' className='text-zinc-800 w-full pr-4 group flex h-7 items-center duration-700 hover:tracking-wide'>
                         <div className='w-0 group-hover:w-4 opacity-0 group-hover:opacity-100 duration-700 h-full mr-4 bg-gradient-to-r from-ao to-[#d7defa] rounded-r-xl' />
                         Platform Compatibility
@@ -91,8 +99,8 @@ const HowToUse = () => {
                 <div className='w-full md:w-3/4 md:px-12 text-zinc-800'>
                     <div id='introduction' className='section' style={{ display: 'none' }}>
                         <h1 className='text-4xl font-bold mb-2'>Introduction</h1>
-                        <p className='mb-2 text-zinc-600'>Ecco Icon is a project inspired by my passion for the creative community and my personal needs while working on various design projects. All animated icons are crafted in Adobe After Effects and exported using the <a href='https://aescripts.com/bodymovin/' className='text-ao font-bold'>Bodymovin</a> plugin.</p>
-                        <p className='text-zinc-600'>To learn more about the project, visit <Link to="/about" className='text-ao font-bold'>this</Link> page. If you'd like to see the project grow and continue, please consider making a <Link to='/donate' className='text-ao font-bold'>donation</Link>. Even the smallest contribution helps keep this project alive.</p>
+                        <p className='mb-2 text-zinc-600'>Ecco Icon is a project inspired by my passion for the creative community and my personal needs while working on various design projects. All animated icons are crafted in Adobe After Effects and exported using the <ExternalLink href='https://aescripts.com/bodymovin/'>Bodymovin</ExternalLink> plugin.</p>
+                        <p className='text-zinc-600'>To learn more about the project, visit <Link to="/about" className='relative text-ao font-bold group'>this<span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gradient-to-r from-[#c1b7f3] via-[#69bbeb] to-[#42abea] transition-all duration-500 group-hover:w-full"></span></Link> page. If you'd like to see the project grow and continue, please consider making a <Link to='/donate' className='relative text-ao font-bold group'>donation<span className="absolute left-0 bottom-0 w-0 h-0.5 bg-gradient-to-r from-[#c1b7f3] via-[#69bbeb] to-[#42abea] transition-all duration-500 group-hover:w-full"></span></Link>. Even the smallest contribution helps keep this project alive.</p>
                     </div>
                     
                     <div id='usage' className='section' style={{ display: 'none' }}>
@@ -110,9 +118,9 @@ const HowToUse = () => {
                             Additionally, the <mark className='bg-zinc-200 px-1 rounded-sm'>.aep</mark> file (After Effects project file) is provided in case you want to modify the animation or change its colors. <mark className='bg-zinc-200 px-1 rounded-sm'>.svg</mark> and <mark className='bg-zinc-200 px-1 rounded-sm'>.png</mark>  files are also included if you prefer to use the icons in a non-animated format.
                         </p>
                         <h2 className='font-bold text-2xl mt-8 mb-2'>dotLottie</h2>
-                        <p className='mb-2 text-zinc-600'><a href='https://dotlottie.io/intro/#background' className='font-bold text-ao'>dotLottie</a> is a modern, optimized format designed to streamline the usage of Lottie animations. Unlike traditional <mark className='bg-zinc-200 px-1 rounded-sm'>.json</mark> files, dotLottie packages animations along with all their necessary assets into a single compressed file, improving performance and simplifying implementation.</p>
+                        <p className='mb-2 text-zinc-600'><ExternalLink href='https://dotlottie.io/intro/#background'>dotLottie</ExternalLink> is a modern, optimized format designed to streamline the usage of Lottie animations. Unlike traditional <mark className='bg-zinc-200 px-1 rounded-sm'>.json</mark> files, dotLottie packages animations along with all their necessary assets into a single compressed file, improving performance and simplifying implementation.</p>
 
-                        <p className='mt-8 text-zinc-600'><a href='https://developers.lottiefiles.com/docs/' className='text-ao font-bold'>LottieFiles</a> has developed a variety of libraries to make implementing Lottie and dotLottie animated icons easier for developers. Below is a list of their tools:</p>
+                        <p className='mt-8 text-zinc-600'><ExternalLink href='https://developers.lottiefiles.com/docs/'>LottieFiles</ExternalLink> has developed a variety of libraries to make implementing Lottie and dotLottie animated icons easier for developers. Below is a list of their tools:</p>
                         <div className='grid grid-cols-1 md:grid-cols-2 gap-4 mt-6'>
                             <a href='https://developers.lottiefiles.com/docs/dotlottie-player/dotlottie-web/' className='border-zinc-200 rounded-xl p-6 border-[1px] hover:border-ao duration-500'>
                                 <span className='block mb-2 font-bold'>dotLottie-web</span>
@@ -158,6 +166,26 @@ const HowToUse = () => {
 
                     </div>
 
+                    <div id='react' className='section' style={{ display: 'none' }}>
+                            <h1 className='text-4xl font-bold mb-2'>React Library</h1>
+                            <p className='mb-2 text-zinc-600'>React Ecco Static is a library that allows you to use the static SVG version of Ecco Icon Pack icons in your React project.</p>
+                            <h2 class="text-xl font-semibold mt-8 mb-2">Installation</h2>
+                            <p className='mb-2 text-zinc-600'>You can install the library using npm:</p>
+                            <Code text="npm install react-ecco-static" />
+                            <p className='mt-4 mb-2 text-zinc-600'>Or with yarn:</p>
+                            <Code text="yarn add react-ecco-static" />
+                            <h2 class="text-xl font-semibold mt-8 mb-2">Usage</h2>
+                            <p className='mb-2 text-zinc-600'>To use the library, import the icon you want to use and render it in your component:</p>
+                            <Code text={`import { IconName } from 'react-ecco-static';`} />
+                            <p className='mb-2 mt-4 text-zinc-600'>Please note that icon names in the library follow CamelCase. For example, "arrow-left" becomes "ArrowLeft".</p>
+                            <p className='mb-2 mt-4 text-zinc-600'>To change the color, pass the color prop to the icon component like this:</p>
+                            <Code text={`<Airplane color="#FF0000" />`} />
+                            <p className='mb-2 mt-12 text-zinc-600'>Check out the ecco-icon-static page on the <ExternalLink href='https://www.npmjs.com/package/react-ecco-static'>NPM</ExternalLink> website. If you have any ideas or suggestions, feel free to contact me at <ExternalLink href="mailto:hi@sajjaddashti.ir">hi@sajjaddashti.ir</ExternalLink>.</p>
+
+
+
+                    </div>
+
                     <div id='compatibility' className='section' style={{ display: 'none' }}>
                             <h1 className='text-4xl font-bold mb-2'>Platform Compatibility</h1>
                             <p className='mb-10 text-zinc-600'>Ecco Icon is compatible with all platforms supported by Lottie. You can use it on the web (regardless of the technology, such as React, Vue, etc.), as well as in iOS and Android apps.</p>
@@ -179,7 +207,7 @@ const HowToUse = () => {
 
                     <div id='license' className='section' style={{ display: 'none' }}>
                         <h1 className='text-4xl font-bold mb-2'>How Licensing Works for Ecco Icon</h1>
-                        <p className='mb-2 text-zinc-600'>Ecco Icon is proud to offer a collection of animated icons that are entirely free for use under the <a href='https://creativecommons.org/licenses/by/4.0/' className='text-ao font-bold'>Creative Commons Attribution 4.0 International (CC BY 4.0) License</a>. This means you are free to use, share, and even modify these icons in your projects—whether personal or commercial—provided that you give appropriate credit to the creator. Below, I’ll explain how the licensing works in detail and how you can properly provide attribution.</p>
+                        <p className='mb-2 text-zinc-600'>Ecco Icon is proud to offer a collection of animated icons that are entirely free for use under the <ExternalLink href='https://creativecommons.org/licenses/by/4.0/'>Creative Commons Attribution 4.0 International (CC BY 4.0) License</ExternalLink>. This means you are free to use, share, and even modify these icons in your projects—whether personal or commercial—provided that you give appropriate credit to the creator. Below, I’ll explain how the licensing works in detail and how you can properly provide attribution.</p>
 
                         <h2 class="text-xl font-semibold mt-8">What Does CC BY 4.0 Allow?</h2>
                         <p class="text-base leading-relaxed text-zinc-600">
@@ -206,14 +234,14 @@ const HowToUse = () => {
                         </p>
                         <ul class="list-disc pl-4 mt-3 space-y-2 text-zinc-600">
                             <li><strong>Creator’s Name:</strong> Mention that the icons were created by <strong>Sajjad Dashti</strong>.</li>
-                            <li><strong>Source:</strong> Include the name of the platform, <strong>Ecco Icon</strong>, and ideally provide a link to the website (e.g., <a href="https://eccoicon.com" class="text-ao font-bold">https://eccoicon.com</a>).</li>
+                            <li><strong>Source:</strong> Include the name of the platform, <strong>Ecco Icon</strong>, and ideally provide a link to the website (e.g., <ExternalLink href="https://eccoicon.com">https://eccoicon.com</ExternalLink>).</li>
                             <li><strong>License Type:</strong> Specify that the icons are licensed under the Creative Commons Attribution 4.0 International (CC BY 4.0) License.</li>
                         </ul>
 
                         <div class="bg-zinc-50 p-6 rounded-xl border border-zinc-300 mt-4">
                             <p class="text-sm font-mono">
                                 Icons by Sajjad Dashti, available for free on Ecco Icon under the CC BY 4.0 License:
-                                <a href="https://eccoicon.com" class="text-ao font-bold">https://eccoicon.com</a>
+                                <ExternalLink href="https://eccoicon.com">https://eccoicon.com</ExternalLink>
                             </p>
                         </div>
 
@@ -242,8 +270,7 @@ const HowToUse = () => {
                         </p>
 
                         <p class="text-base leading-relaxed mt-8 text-zinc-600">
-                            If you have any questions about licensing or how to provide attribution, feel free to contact me through 
-                            <a href="mailto:sajjaddashti.ir" class="text-ao font-bold"> my personal email</a>. Thank you for supporting open creativity!
+                            If you have any questions about licensing or how to provide attribution, feel free to contact me through <ExternalLink href="mailto:sajjaddashti.ir">my personal email</ExternalLink>. Thank you for supporting open creativity!
                         </p>
 
                     </div>
@@ -269,6 +296,7 @@ const HowToUse = () => {
                 </div>
             </div>
             <Footer />
+            <CookieNotice />
         </div>
     );
 };

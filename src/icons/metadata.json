@@ -111,13 +111,13 @@
     },
     {
       "id": "icon12",
-      "name": "Delete",
+      "name": "Remove",
       "keywords": ["delete", "remove", "trash", "bin", "discard", "erase", "clear", "cancel", "dispose", "eliminate", "destroy", "uninstall", "trash can", "wipe", "terminate", "clean up"],
-      "svg": "/icons/delete.svg",
-      "lottie": "/icons/delete.json",
-      "png": "/icons/delete.png",
-      "dotlottie": "/icons/delete.lottie",
-      "aep": "/icons/delete.aep"
+      "svg": "/icons/remove.svg",
+      "lottie": "/icons/remove.json",
+      "png": "/icons/remove.png",
+      "dotlottie": "/icons/remove.lottie",
+      "aep": "/icons/remove.aep"
     },
     {
       "id": "icon13",
@@ -1078,6 +1078,146 @@
       "png": "/icons/notification.png",
       "dotlottie": "/icons/notification.lottie",
       "aep": "/icons/notification.aep"
-    }
+    },
+      {
+        "id": "icon109",
+        "name": "Pin",
+        "keywords": ["pin", "pin icon", "attach", "fix", "pin item", "pin location", "pin board", "pin design", "pin UI", "pin UX", "pin interface", "pin system", "pin animation", "pin visual", "pin interaction", "pin badge", "pin alert", "pin reminder", "pin settings", "pin management", "pin popup", "pin style", "pin sound", "pin effect", "pin indicator", "pin marker", "pin tool", "pin feature", "pin element"],
+        "svg": "/icons/pin.svg",
+        "lottie": "/icons/pin.json",
+        "png": "/icons/pin.png",
+        "dotlottie": "/icons/pin.lottie",
+        "aep": "/icons/pin.aep"
+      },
+      {
+        "id": "icon110",
+        "name": "Copy",
+        "keywords": ["copy", "copy icon", "duplicate", "clone", "copy text", "copy file", "copy design", "copy UI", "copy UX", "copy interface", "copy system", "copy animation", "copy visual", "copy interaction", "copy badge", "copy alert", "copy reminder", "copy settings", "copy management", "copy popup", "copy style", "copy sound", "copy effect", "copy indicator", "copy tool", "copy feature", "copy element", "copy action", "copy function"],
+        "svg": "/icons/copy.svg",
+        "lottie": "/icons/copy.json",
+        "png": "/icons/copy.png",
+        "dotlottie": "/icons/copy.lottie",
+        "aep": "/icons/copy.aep"
+      },
+      {
+        "id": "icon111",
+        "name": "Reply",
+        "keywords": ["reply", "reply icon", "respond", "answer", "reply message", "reply email", "reply design", "reply UI", "reply UX", "reply interface", "reply system", "reply animation", "reply visual", "reply interaction", "reply badge", "reply alert", "reply reminder", "reply settings", "reply management", "reply popup", "reply style", "reply sound", "reply effect", "reply indicator", "reply tool", "reply feature", "reply element", "reply action", "reply function"],
+        "svg": "/icons/reply.svg",
+        "lottie": "/icons/reply.json",
+        "png": "/icons/reply.png",
+        "dotlottie": "/icons/reply.lottie",
+        "aep": "/icons/reply.aep"
+      },
+      {
+        "id": "icon112",
+        "name": "Forward",
+        "keywords": ["forward", "forward icon", "send", "transfer", "forward message", "forward email", "forward design", "forward UI", "forward UX", "forward interface", "forward system", "forward animation", "forward visual", "forward interaction", "forward badge", "forward alert", "forward reminder", "forward settings", "forward management", "forward popup", "forward style", "forward sound", "forward effect", "forward indicator", "forward tool", "forward feature", "forward element", "forward action", "forward function"],
+        "svg": "/icons/forward.svg",
+        "lottie": "/icons/forward.json",
+        "png": "/icons/forward.png",
+        "dotlottie": "/icons/forward.lottie",
+        "aep": "/icons/forward.aep"
+      },
+      {
+        "id": "icon113",
+        "name": "Storage",
+        "keywords": ["storage", "storage icon", "save", "data", "storage system", "storage design", "storage UI", "storage UX", "storage interface", "storage animation", "storage visual", "storage interaction", "storage badge", "storage alert", "storage reminder", "storage settings", "storage management", "storage popup", "storage style", "storage sound", "storage effect", "storage indicator", "storage tool", "storage feature", "storage element", "storage action", "storage function", "cloud storage", "local storage", "file storage"],
+        "svg": "/icons/storage.svg",
+        "lottie": "/icons/storage.json",
+        "png": "/icons/storage.png",
+        "dotlottie": "/icons/storage.lottie",
+        "aep": "/icons/storage.aep"
+      },
+      {
+        "id": "icon114",
+        "name": "Group",
+        "keywords": ["group", "group icon", "team", "collection", "group chat", "group design", "group UI", "group UX", "group interface", "group system", "group animation", "group visual", "group interaction", "group badge", "group alert", "group reminder", "group settings", "group management", "group popup", "group style", "group sound", "group effect", "group indicator", "group tool", "group feature", "group element", "group action", "group function", "user group", "group list", "group profile"],
+        "svg": "/icons/group.svg",
+        "lottie": "/icons/group.json",
+        "png": "/icons/group.png",
+        "dotlottie": "/icons/group.lottie",
+        "aep": "/icons/group.aep"
+      },
+        {
+          "id": "icon115",
+          "name": "Invite",
+          "keywords": ["invite", "invite icon", "add user", "send invite", "invite friend", "invite design", "invite UI", "invite UX", "invite interface", "invite system", "invite animation", "invite visual", "invite interaction", "invite badge", "invite alert", "invite reminder", "invite settings", "invite management", "invite popup", "invite style", "invite sound", "invite effect", "invite indicator", "invite tool", "invite feature", "invite element", "invite action", "invite function", "invite link", "invite code"],
+          "svg": "/icons/invite.svg",
+          "lottie": "/icons/invite.json",
+          "png": "/icons/invite.png",
+          "dotlottie": "/icons/invite.lottie",
+          "aep": "/icons/invite.aep"
+        },
+        {
+          "id": "icon116",
+          "name": "Cloud",
+          "keywords": ["cloud", "cloud icon", "cloud storage", "cloud upload", "cloud download", "cloud design", "cloud UI", "cloud UX", "cloud interface", "cloud system", "cloud animation", "cloud visual", "cloud interaction", "cloud badge", "cloud alert", "cloud reminder", "cloud settings", "cloud management", "cloud popup", "cloud style", "cloud sound", "cloud effect", "cloud indicator", "cloud tool", "cloud feature", "cloud element", "cloud action", "cloud function", "cloud sync", "cloud backup"],
+          "svg": "/icons/cloud.svg",
+          "lottie": "/icons/cloud.json",
+          "png": "/icons/cloud.png",
+          "dotlottie": "/icons/cloud.lottie",
+          "aep": "/icons/cloud.aep"
+        },
+        {
+          "id": "icon117",
+          "name": "Wifi",
+          "keywords": ["wifi", "wifi icon", "wireless", "internet", "wifi connection", "wifi design", "wifi UI", "wifi UX", "wifi interface", "wifi system", "wifi animation", "wifi visual", "wifi interaction", "wifi badge", "wifi alert", "wifi reminder", "wifi settings", "wifi management", "wifi popup", "wifi style", "wifi sound", "wifi effect", "wifi indicator", "wifi tool", "wifi feature", "wifi element", "wifi action", "wifi function", "wifi signal", "wifi network"],
+          "svg": "/icons/wifi.svg",
+          "lottie": "/icons/wifi.json",
+          "png": "/icons/wifi.png",
+          "dotlottie": "/icons/wifi.lottie",
+          "aep": "/icons/wifi.aep"
+        },
+        {
+          "id": "icon118",
+          "name": "Center Align",
+          "keywords": ["center align", "center align icon", "align center", "text center", "center alignment", "center design", "center UI", "center UX", "center interface", "center system", "center animation", "center visual", "center interaction", "center badge", "center alert", "center reminder", "center settings", "center management", "center popup", "center style", "center sound", "center effect", "center indicator", "center tool", "center feature", "center element", "center action", "center function", "text alignment", "center justify"],
+          "svg": "/icons/center-align.svg",
+          "lottie": "/icons/center-align.json",
+          "png": "/icons/center-align.png",
+          "dotlottie": "/icons/center-align.lottie",
+          "aep": "/icons/center-align.aep"
+        },
+        {
+          "id": "icon119",
+          "name": "Left Align",
+          "keywords": ["left align", "left align icon", "align left", "text left", "left alignment", "left design", "left UI", "left UX", "left interface", "left system", "left animation", "left visual", "left interaction", "left badge", "left alert", "left reminder", "left settings", "left management", "left popup", "left style", "left sound", "left effect", "left indicator", "left tool", "left feature", "left element", "left action", "left function", "text alignment", "left justify"],
+          "svg": "/icons/left-align.svg",
+          "lottie": "/icons/left-align.json",
+          "png": "/icons/left-align.png",
+          "dotlottie": "/icons/left-align.lottie",
+          "aep": "/icons/left-align.aep"
+        },
+        {
+          "id": "icon120",
+          "name": "Right Align",
+          "keywords": ["right align", "right align icon", "align right", "text right", "right alignment", "right design", "right UI", "right UX", "right interface", "right system", "right animation", "right visual", "right interaction", "right badge", "right alert", "right reminder", "right settings", "right management", "right popup", "right style", "right sound", "right effect", "right indicator", "right tool", "right feature", "right element", "right action", "right function", "text alignment", "right justify"],
+          "svg": "/icons/right-align.svg",
+          "lottie": "/icons/right-align.json",
+          "png": "/icons/right-align.png",
+          "dotlottie": "/icons/right-align.lottie",
+          "aep": "/icons/right-align.aep"
+        },
+                {
+          "id": "icon121",
+          "name": "Justify",
+          "keywords": ["justify", "justify icon", "text justify", "align justify", "justify alignment", "justify design", "justify UI", "justify UX", "justify interface", "justify system", "justify animation", "justify visual", "justify interaction", "justify badge", "justify alert", "justify reminder", "justify settings", "justify management", "justify popup", "justify style", "justify sound", "justify effect", "justify indicator", "justify tool", "justify feature", "justify element", "justify action", "justify function", "text alignment", "full justify"],
+          "svg": "/icons/justify.svg",
+          "lottie": "/icons/justify.json",
+          "png": "/icons/justify.png",
+          "dotlottie": "/icons/justify.lottie",
+          "aep": "/icons/justify.aep"
+        },
+        {
+          "id": "icon122",
+          "name": "Exit",
+          "keywords": ["exit", "exit icon", "close", "leave", "exit app", "exit design", "exit UI", "exit UX", "exit interface", "exit system", "exit animation", "exit visual", "exit interaction", "exit badge", "exit alert", "exit reminder", "exit settings", "exit management", "exit popup", "exit style", "exit sound", "exit effect", "exit indicator", "exit tool", "exit feature", "exit element", "exit action", "exit function", "logout", "sign out", "quit"],
+          "svg": "/icons/exit.svg",
+          "lottie": "/icons/exit.json",
+          "png": "/icons/exit.png",
+          "dotlottie": "/icons/exit.lottie",
+          "aep": "/icons/exit.aep"
+        }
   ]
   

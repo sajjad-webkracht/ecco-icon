@@ -2,6 +2,7 @@ import * as React from "react"
 import Header from '../components/header';
 import Footer from '../components/footer';
 import Seo from '../components/seo'
+import CookieNotice from "../components/cookie_notice"
 
 
 
@@ -24,6 +25,7 @@ const Donate = () => {
               </div>
           </div>
       <Footer />
+      <CookieNotice />
     </main>
   )
 }

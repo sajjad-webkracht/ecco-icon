@@ -21,6 +21,8 @@ const Footer = () => {
                     <div className='w-full md:w-1/3 flex flex-col gap-2'>
                         <h2 className='text-lg font-bold mb-1 md:mb-4'>About Ecco Icon</h2>
                         <Link to='/about' className='text-zinc-300'>About the Project</Link>
+                        <Link to='/how-to-use/#react' className='text-zinc-300'>React Library</Link>
+                        <a href='https://www.figma.com/community/plugin/1471483563691391264/ecco-icon' className='text-zinc-300'>Figma Plugin</a>
                         <Link to='/donate' className='text-zinc-300'>Donate</Link>
                         <Link to='/how-to-use/#license' className='text-zinc-300'>License</Link>
                     </div>

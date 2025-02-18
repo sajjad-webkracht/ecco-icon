@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'gatsby';
 
+
 const Header = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     const [scrolled, setScrolled] = useState(false);
@@ -18,11 +19,13 @@ const Header = () => {
     };
 
     useEffect(() => {
+        handleScroll();
         window.addEventListener('scroll', handleScroll);
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
+    
 
     useEffect(() => {
         if (menuOpen) {
@@ -38,7 +41,7 @@ const Header = () => {
       }, [menuOpen]);
 
     return (
-        <div className='mt-20'>
+        <div className='pt-20'>
             <header className={`py-4 px-4 md:px-12 flex justify-between items-center fixed top-0 z-30 bg-white duration-700 rounded-xl ${scrolled ? 'shadow-lg mx-4 md:mx-12 mt-5 w-[calc(100%-32px)] md:w-[calc(100%-96px)] md:px-5' : 'w-full'}`}>
                 <div className='hidden md:flex md:w-1/3 gap-7 items-center'>
                     <Link to='/how-to-use' className='text-zinc-800 text-base relative group'>How to Use

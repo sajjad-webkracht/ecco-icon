@@ -5,6 +5,7 @@ import Ecco from '../images/ecco.svg';
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 import Seo from '../components/seo'
 import Scrollup from '../components/scrollup'
+import CookieNotice from "../components/cookie_notice"
 
 
 const About = () => {
@@ -100,6 +101,7 @@ const About = () => {
             </div>
             <Footer />
             <Scrollup />
+            <CookieNotice />
         </div>
     );
 };

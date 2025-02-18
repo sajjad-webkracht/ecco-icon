@@ -4,10 +4,10 @@ import Header from '../components/header';
 import Footer from '../components/footer';
 import LottieAnimation from '../components/lottieanimation';
 import Download from '../components/download';
-import SearchIcon from '../images/search.svg';
 import SearchForm from '../components/searchform';
 import Seo from '../components/seo'
 import Scrollup from '../components/scrollup'
+import CookieNotice from "../components/cookie_notice"
 
 
 const Explore = ({ data }) => {
@@ -67,6 +67,7 @@ const Explore = ({ data }) => {
             {selectedIcon && <Download icon={selectedIcon} onClose={handleClosePopup} />}
             <Footer />
             <Scrollup />
+            <CookieNotice />
         </main>
     );
 };
