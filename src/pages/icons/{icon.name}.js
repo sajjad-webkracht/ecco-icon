@@ -119,7 +119,7 @@ const IconPage = ({ data }) => {
               </div>
 
               <code className='mt-2 bg-zinc-100 p-4 rounded-md text-sm text-zinc-700 flex justify-between items-center gap-2'>
-                <span className='w-11/12 overflow-x-scroll'>&lt;{icon.name.replace(/ /g, '')} color="#000000" /&gt;</span>
+                <span className='w-11/12 overflow-x-scroll'>&lt;{icon.name.toLowerCase().split(' ').map(word => word.charAt(0).toUpperCase() + word.slice(1)).join('')} color="#000000" /&gt;</span>
                 <a href='/how-to-use/#react' target='_blank'>
                   <div className='w-6 hover:scale-110 duration-200'>
                     <Question color="#a1a1aa" />
